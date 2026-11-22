@@ -1,0 +1,20 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local previews and generated artifacts
+.cache/
+dist/
+coverage/
+node_modules/
+*.log
+
+# Never commit family-private exports or identifying material
+private/
+family-data/
+progress-exports/
+*.env
+*.env.*
+

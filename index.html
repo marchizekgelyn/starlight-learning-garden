@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#5a3fd6">
+  <meta name="description" content="A private-by-design family learning garden with age-appropriate paths for early learning and elementary exploration.">
+  <title>Starlight Learning Garden</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="library.css">
+  <link rel="stylesheet" href="utilities.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to learning</a>
+  <div class="sky" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Starlight Learning Garden home">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span><strong>Starlight</strong><small>Learning Garden</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <button class="nav-link active" data-view-link="home">Home</button>
+      <button class="nav-link" data-view-link="little">Little Learner</button>
+      <button class="nav-link" data-view-link="explorer">Explorer</button>
+      <button class="nav-link" data-view-link="library">Discovery Library</button>
+      <button class="nav-link" data-view-link="grownups">Grown-ups</button>
+    </nav>
+    <button class="sound-toggle" id="soundToggle" aria-pressed="true" title="Turn sounds off"><span aria-hidden="true">♪</span><span>Sound on</span></button>
+  </header>
+
+  <main id="main">
+    <section class="view home-view active" data-view="home" id="home">
+      <div class="hero content-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">A FAMILY LEARNING WORLD</p>
+          <h1>Two sisters.<br><em>Two ways to wonder.</em></h1>
+          <p class="lede">A playful home for everything Dad adds next—built so a two-year-old can tap, listen, and discover while a nine-year-old can investigate, practice, and create.</p>
+          <div class="hero-actions">
+            <button class="button primary" data-go="little">I’m a Little Learner</button>
+            <button class="button secondary" data-go="explorer">I’m an Explorer</button>
+          </div>
+          <ul class="trust-list" aria-label="Family-friendly design promises">
+            <li>No ads</li><li>No public profiles</li><li>Progress stays on this device</li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a learning garden beneath a starry sky">
+          <div class="moon"><span>2</span><span>9</span></div>
+          <div class="orbit orbit-one"><i>★</i></div>
+          <div class="orbit orbit-two"><i>3</i></div>
+          <div class="hill hill-back"></div><div class="hill hill-front"></div>
+          <div class="book"><span>ABC</span><span>1 2 3</span></div>
+          <div class="flower f1">✿</div><div class="flower f2">✿</div><div class="flower f3">✿</div>
+        </div>
+      </div>
+
+      <div class="pathway-wrap content-wrap">
+        <article class="path-card little-card">
+          <div class="path-icon" aria-hidden="true">☀</div>
+          <p class="path-label">AGES 2–4 · PLAY WITH A GROWN-UP</p>
+          <h2>Little Learner Meadow</h2>
+          <p>Listen, point, match, count, and celebrate. Every activity uses one clear instruction and oversized controls.</p>
+          <div class="skill-pills"><span>Colors</span><span>Shapes</span><span>Counting</span><span>Words</span></div>
+          <button class="button primary" data-go="little">Enter the meadow</button>
+        </article>
+        <article class="path-card explorer-card">
+          <div class="path-icon" aria-hidden="true">✦</div>
+          <p class="path-label">AGES 8–11 · LEARN & BUILD</p>
+          <h2>Explorer Observatory</h2>
+          <p>Work through real lessons, solve challenges, use visual tools, and follow curiosity across every subject.</p>
+          <div class="skill-pills"><span>Math</span><span>Science</span><span>Reading</span><span>Projects</span></div>
+          <button class="button secondary" data-go="explorer">Launch the observatory</button>
+        </article>
+      </div>
+
+      <section class="today content-wrap" aria-labelledby="todayTitle">
+        <div><p class="eyebrow">A LITTLE EVERY DAY</p><h2 id="todayTitle">Today’s family spark</h2><p>Find three circles together. Where can you see one? What makes it a circle?</p></div>
+        <div class="spark-steps"><span><b>1</b>Look</span><span><b>2</b>Talk</span><span><b>3</b>Make</span></div>
+      </section>
+    </section>
+
+    <section class="view learning-view little-view" data-view="little" id="little">
+      <div class="content-wrap view-heading">
+        <div><p class="eyebrow">LITTLE LEARNER MEADOW</p><h1>Tap, listen, and discover.</h1><p>Short, joyful activities designed for small hands and shared play.</p></div>
+        <div class="progress-bloom"><span id="littleStars">0</span><small>stars found</small></div>
+      </div>
+      <div class="content-wrap toddler-grid">
+        <article class="activity color-activity">
+          <div class="activity-top"><span class="activity-icon">🎨</span><div><p>COLOR PLAY</p><h2>Find the color</h2></div></div>
+          <p class="prompt" id="colorPrompt">Can you tap the yellow sun?</p>
+          <div class="color-options" id="colorOptions" aria-label="Color choices"></div>
+          <button class="listen-button" data-speak-target="colorPrompt">🔊 Listen again</button>
+        </article>
+        <article class="activity count-activity">
+          <div class="activity-top"><span class="activity-icon">🐞</span><div><p>COUNTING GARDEN</p><h2>Count the ladybugs</h2></div></div>
+          <div class="bugs" id="bugs" aria-label="Ladybugs to count"></div>
+          <p class="prompt" id="countPrompt">How many ladybugs do you see?</p>
+          <div class="number-options" id="numberOptions"></div>
+          <button class="listen-button" data-speak-target="countPrompt">🔊 Listen again</button>
+        </article>
+        <article class="activity shape-activity">
+          <div class="activity-top"><span class="activity-icon">🔷</span><div><p>SHAPE PARADE</p><h2>Match the shape</h2></div></div>
+          <div class="shape-stage"><div class="shape-target" id="shapeTarget"></div></div>
+          <p class="prompt" id="shapePrompt">Which one matches?</p>
+          <div class="shape-options" id="shapeOptions"></div>
+        </article>
+        <article class="activity word-activity">
+          <div class="activity-top"><span class="activity-icon">📖</span><div><p>FIRST WORDS</p><h2>Picture word</h2></div></div>
+          <div class="word-picture" id="wordPicture">🌙</div>
+          <p class="giant-word" id="giantWord">MOON</p>
+          <button class="button primary wide" data-speak-target="giantWord">Say the word</button>
+        </article>
+      </div>
+      <div class="content-wrap celebration" id="littleMessage" role="status" aria-live="polite">Choose an activity and find your first star!</div>
+    </section>
+
+    <section class="view learning-view explorer-view" data-view="explorer" id="explorer">
+      <div class="content-wrap view-heading explorer-heading">
+        <div><p class="eyebrow">EXPLORER OBSERVATORY</p><h1>Choose a mission.</h1><p>Learn the idea, try it yourself, and explain what you discovered.</p></div>
+        <div class="level-badge"><span id="explorerPoints">0</span><small>mission points</small></div>
+      </div>
+      <div class="content-wrap mission-layout">
+        <aside class="subject-rail" aria-label="Subjects">
+          <button class="subject active" data-subject="math"><span>∑</span>Math</button>
+          <button class="subject" data-subject="science"><span>⚗</span>Science</button>
+          <button class="subject" data-subject="reading"><span>Aa</span>Reading</button>
+          <button class="subject" data-subject="create"><span>✎</span>Create</button>
+        </aside>
+        <div class="mission-stage">
+          <div class="mission-intro"><p class="mission-kicker" id="missionKicker">MATH MISSION · FRACTIONS</p><h2 id="missionTitle">Build a whole from equal parts</h2><p id="missionDescription">A fraction tells us how many equal parts of a whole we have. Change the shaded pieces and watch the fraction update.</p></div>
+          <div class="fraction-lab" id="fractionLab">
+            <div class="fraction-visual" id="fractionVisual" aria-label="Interactive fraction model"></div>
+            <div class="fraction-controls"><label>Equal parts <input id="partsRange" type="range" min="2" max="10" value="4"><output id="partsOut">4</output></label><label>Shaded parts <input id="shadeRange" type="range" min="0" max="4" value="1"><output id="shadeOut">1</output></label><div class="fraction-readout"><span id="fractionText">1/4</span><small id="fractionWords">one fourth</small></div></div>
+          </div>
+          <div class="mission-check">
+            <div><p>MISSION CHECK</p><h3 id="challengeQuestion">If 2 of 4 equal pieces are shaded, what fraction is shaded?</h3></div>
+            <div class="challenge-options" id="challengeOptions"><button data-answer="1/4">1/4</button><button data-answer="2/4">2/4</button><button data-answer="3/4">3/4</button></div>
+          </div>
+          <div class="mission-footer"><p id="missionFeedback" role="status" aria-live="polite">Try the model, then answer the mission check.</p><button class="button primary" id="newMission">New mission</button></div>
+        </div>
+      </div>
+      <section class="content-wrap atlas-access">
+        <div><p class="eyebrow">GROW-WITH-YOU MATH</p><h2>ATLAS Math Studio</h2><p>The supplied academy and super calculator provide the deeper curriculum foundation. Their advanced tools are separated from the child-first missions so the interface grows with the learner.</p></div>
+        <div class="atlas-feature-grid"><div><b>861</b><span>structured lessons</span></div><div><b>716</b><span>visual concepts</span></div><div><b>Safe</b><span>browser math parser</span></div></div>
+        <p class="coming-note">Parent-enabled full academy and calculator modules can be added here as the library expands.</p>
+      </section>
+    </section>
+
+    <section class="view library-view" data-view="library" id="library">
+      <div class="content-wrap view-heading library-heading">
+        <div><p class="eyebrow">STARLIGHT DISCOVERY LIBRARY</p><h1>Four worlds to explore.</h1><p>Child-friendly learning adapted from Dad’s Science, Geology, Archaeology, and Medical reference pages.</p></div>
+        <div class="library-orbit" aria-hidden="true"><span>⚗</span><span>◆</span><span>⌛</span><span>♥</span></div>
+      </div>
+      <div class="content-wrap library-grid" id="libraryGrid" aria-label="Discovery subjects">
+        <button class="library-card" data-library-subject="science"><span class="library-icon">⚗</span><small>ASK · TEST · EXPLAIN</small><strong>Science</strong><p>Explore matter, energy, living things, Earth, and the sky.</p><i>Open the laboratory →</i></button>
+        <button class="library-card geology-card" data-library-subject="geology"><span class="library-icon">◆</span><small>ROCKS · EARTH · CHANGE</small><strong>Geology</strong><p>Read the stories hidden in rocks, minerals, fossils, and landforms.</p><i>Enter Earth’s archive →</i></button>
+        <button class="library-card archaeology-card" data-library-subject="archaeology"><span class="library-icon">⌛</span><small>PEOPLE · OBJECTS · EVIDENCE</small><strong>Archaeology</strong><p>Learn how evidence helps us understand people from long ago.</p><i>Begin the field journal →</i></button>
+        <button class="library-card health-card" data-library-subject="health"><span class="library-icon">♥</span><small>BODY · PREVENTION · HELP</small><strong>Health &amp; Medical</strong><p>Learn body basics, healthy habits, medical words, and when to get an adult.</p><i>Visit the health station →</i></button>
+      </div>
+      <article class="content-wrap discovery-panel" id="discoveryPanel" hidden>
+        <button class="back-library" id="backLibrary">← All four subjects</button>
+        <div class="discovery-hero"><div><p class="eyebrow" id="discoveryKicker"></p><h2 id="discoveryTitle"></h2><p id="discoveryIntro"></p></div><div class="discovery-badge" id="discoveryBadge"></div></div>
+        <div class="age-switch" role="group" aria-label="Choose learning level"><button class="active" data-age-track="little">Little Learner</button><button data-age-track="explorer">Explorer</button></div>
+        <div class="discovery-content">
+          <section class="lesson-column"><p class="eyebrow">LEARN</p><h3 id="lessonTitle"></h3><p id="lessonText"></p><div class="word-bank" id="wordBank"></div></section>
+          <section class="investigation-card"><p class="eyebrow">TRY IT</p><h3 id="activityTitle"></h3><ol id="activitySteps"></ol><div class="notice" id="safetyNotice"></div></section>
+          <section class="question-card"><p class="eyebrow">THINK LIKE AN EXPLORER</p><h3>Questions to ask</h3><ul id="inquiryQuestions"></ul><button class="button primary" id="completeDiscovery">I explained my discovery</button><p id="discoveryFeedback" role="status" aria-live="polite"></p></section>
+        </div>
+        <p class="source-note">Adapted for Starlight from the MLavoie6927 portfolio’s Science, Geology, Archaeology, and Medical learning sections. Adult navigation, personal information, medication-combination material, and unsafe procedures are not included.</p>
+      </article>
+    </section>
+
+    <section class="view grownups-view" data-view="grownups" id="grownups">
+      <div class="content-wrap view-heading"><div><p class="eyebrow">GROWN-UP GARDEN GATE</p><h1>Guide the learning journey.</h1><p>See what each mode is designed to teach and how new family lessons fit into the system.</p></div><div class="gate-mark">♥</div></div>
+      <div class="content-wrap parent-grid">
+        <article><span>01</span><h2>Start together</h2><p>For the youngest learner, say the prompt aloud, name what she taps, and stop while the activity is still fun.</p></article>
+        <article><span>02</span><h2>Ask for the thinking</h2><p>For the older learner, ask “How do you know?” and “Can you show it another way?” before giving the answer.</p></article>
+        <article><span>03</span><h2>Add any subject</h2><p>Future material enters as a subject, a mission, and one clear success check—keeping the library consistent as it grows.</p></article>
+      </div>
+      <section class="content-wrap architecture">
+        <div><p class="eyebrow">LEARNING ARCHITECTURE</p><h2>One library, age-aware delivery</h2></div>
+        <div class="architecture-flow"><div><b>Source library</b><span>Math · science · reading · history · life skills</span></div><i>›</i><div><b>Age lens</b><span>Listen & tap · investigate & explain</span></div><i>›</i><div><b>Learning loop</b><span>Discover · practice · reflect · revisit</span></div></div>
+      </section>
+      <section class="content-wrap privacy-panel"><div><p class="eyebrow">PRIVATE BY DESIGN</p><h2>Children learn without becoming the product.</h2></div><ul><li>No advertising or trackers</li><li>No child names, photos, or public profiles</li><li>No chat, messaging, or outside links in child modes</li><li>Progress stored only in this browser</li><li>Read-aloud uses the device’s built-in voice</li><li>A grown-up controls future content</li></ul></section>
+    </section>
+  </main>
+
+  <footer><span>Built with love for a family that never stops learning.</span><button data-go="grownups">Grown-up guide</button></footer>
+  <script src="app.js"></script>
+</body>
+</html>
+
