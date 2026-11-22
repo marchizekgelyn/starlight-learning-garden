@@ -1,0 +1,1 @@
+.grade-band-switch{display:flex;flex-wrap:wrap;border-radius:1.1rem}.grade-band-switch button{border-radius:.85rem}.library-heading{margin-bottom:2rem}@media(max-width:620px){.grade-band-switch{display:grid;grid-template-columns:1fr 1fr;width:100%}.grade-band-switch button{padding:.75rem .6rem}}
