@@ -1,0 +1,178 @@
+{
+  "version": "4.0",
+  "title": "ATLAS College Reading Pathway",
+  "levels": [
+    {
+      "id": "PK",
+      "name": "Preschool",
+      "order": 0,
+      "units": 64,
+      "startSkill": "Listen, point to words, name a detail, and retell a beginning and ending with an adult."
+    },
+    {
+      "id": "K",
+      "name": "Kindergarten",
+      "order": 1,
+      "units": 64,
+      "startSkill": "Listen, point to words, name a detail, and retell a beginning and ending with an adult."
+    },
+    {
+      "id": "1",
+      "name": "Grade 1",
+      "order": 2,
+      "units": 64,
+      "startSkill": "Retell accurately, identify a main idea, notice sequence, and quote a simple clue."
+    },
+    {
+      "id": "2",
+      "name": "Grade 2",
+      "order": 3,
+      "units": 64,
+      "startSkill": "Retell accurately, identify a main idea, notice sequence, and quote a simple clue."
+    },
+    {
+      "id": "3",
+      "name": "Grade 3",
+      "order": 4,
+      "units": 64,
+      "startSkill": "Summarize across paragraphs, distinguish evidence from opinion, and compare two simple accounts."
+    },
+    {
+      "id": "4",
+      "name": "Grade 4",
+      "order": 5,
+      "units": 64,
+      "startSkill": "Summarize across paragraphs, distinguish evidence from opinion, and compare two simple accounts."
+    },
+    {
+      "id": "5",
+      "name": "Grade 5",
+      "order": 6,
+      "units": 64,
+      "startSkill": "Trace an argument, identify a limitation, use quoted evidence, and test an inference against the text."
+    },
+    {
+      "id": "6",
+      "name": "Grade 6",
+      "order": 7,
+      "units": 64,
+      "startSkill": "Trace an argument, identify a limitation, use quoted evidence, and test an inference against the text."
+    },
+    {
+      "id": "7",
+      "name": "Grade 7",
+      "order": 8,
+      "units": 64,
+      "startSkill": "Trace an argument, identify a limitation, use quoted evidence, and test an inference against the text."
+    },
+    {
+      "id": "8",
+      "name": "Grade 8",
+      "order": 9,
+      "units": 64,
+      "startSkill": "Evaluate source reliability, rhetorical purpose, quantitative claims, and rival interpretations across documents."
+    },
+    {
+      "id": "9",
+      "name": "Grade 9",
+      "order": 10,
+      "units": 64,
+      "startSkill": "Evaluate source reliability, rhetorical purpose, quantitative claims, and rival interpretations across documents."
+    },
+    {
+      "id": "10",
+      "name": "Grade 10",
+      "order": 11,
+      "units": 64,
+      "startSkill": "Evaluate source reliability, rhetorical purpose, quantitative claims, and rival interpretations across documents."
+    },
+    {
+      "id": "11",
+      "name": "Grade 11",
+      "order": 12,
+      "units": 64,
+      "startSkill": "Evaluate source reliability, rhetorical purpose, quantitative claims, and rival interpretations across documents."
+    },
+    {
+      "id": "12",
+      "name": "Grade 12",
+      "order": 13,
+      "units": 64,
+      "startSkill": "Produce defensible close readings and syntheses, distinguish methodological and normative claims, and evaluate plausible counterarguments."
+    },
+    {
+      "id": "C1",
+      "name": "College I",
+      "order": 14,
+      "units": 64,
+      "startSkill": "Produce defensible close readings and syntheses, distinguish methodological and normative claims, and evaluate plausible counterarguments."
+    },
+    {
+      "id": "C2",
+      "name": "College II",
+      "order": 15,
+      "units": 64,
+      "startSkill": "Produce defensible close readings and syntheses, distinguish methodological and normative claims, and evaluate plausible counterarguments."
+    }
+  ],
+  "counts": {
+    "levels": 16,
+    "units": 1024,
+    "readings": 3072,
+    "objectiveQuestions": 10240,
+    "writingAssignments": 3072,
+    "microLessons": 9920,
+    "words": 1106695
+  },
+  "courseStandard": "Original illustrative cases; teacher-reviewed writing and external assessments required to verify independent college reading mastery.",
+  "skills": [
+    {
+      "title": "Observation and detail",
+      "definition": "Identify a directly stated detail and distinguish it from an idea not stated."
+    },
+    {
+      "title": "Sequence and cause",
+      "definition": "Trace the order of events without confusing sequence with causation."
+    },
+    {
+      "title": "Context vocabulary",
+      "definition": "Infer the meaning of a word from its context, then check an explicit definition."
+    },
+    {
+      "title": "Central idea",
+      "definition": "Identify the main claim and distinguish it from supporting details."
+    },
+    {
+      "title": "Evidence and warrants",
+      "definition": "Explain how a piece of evidence does or does not support an interpretation."
+    },
+    {
+      "title": "Perspective and purpose",
+      "definition": "Compare what two speakers choose to emphasize and why."
+    },
+    {
+      "title": "Claims and limits",
+      "definition": "Locate the boundaries of what the available evidence can establish."
+    },
+    {
+      "title": "Data literacy",
+      "definition": "Read quantities carefully and avoid comparisons with mismatched measures."
+    },
+    {
+      "title": "Counterarguments",
+      "definition": "Represent a reasonable competing explanation before responding."
+    },
+    {
+      "title": "Synthesis across texts",
+      "definition": "Connect two documents while preserving differences and uncertainty."
+    },
+    {
+      "title": "Rhetoric and framing",
+      "definition": "Identify audience, tone, selection, and the work of qualifiers."
+    },
+    {
+      "title": "Transfer and critique",
+      "definition": "Apply an analytical strategy to unfamiliar evidence."
+    }
+  ]
+}

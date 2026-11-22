@@ -1,0 +1,17 @@
+level,name,band,lessons,assignments
+PK,Preschool,emergent,96,1440
+K,Kindergarten,emergent,96,1440
+1,Grade 1,early,96,1440
+2,Grade 2,early,96,1440
+3,Grade 3,developing,96,1440
+4,Grade 4,developing,96,1440
+5,Grade 5,independent,96,1440
+6,Grade 6,independent,96,1440
+7,Grade 7,intermediate,96,1440
+8,Grade 8,intermediate,96,1440
+9,Grade 9,secondary,96,1440
+10,Grade 10,secondary,96,1440
+11,Grade 11,secondary,96,1440
+12,Grade 12,secondary,96,1440
+C1,College I,college,96,1440
+C2,College II,college,96,1440

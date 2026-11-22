@@ -1,0 +1,20 @@
+{
+  "schema": "ATLAS_HUMAN_REVIEW_BENCHMARK_V3",
+  "notice": "SCHEMA ONLY. Remove the example; it is NOT a real human-rated paper. Do not mistake synthetic data for validation.",
+  "cases": [
+    {
+      "id": "example-remove-before-use",
+      "level": "3",
+      "writing": "The story says a bell and boat start with the /b/ sound. I think that matters because Nia used that sound to find matching words. Her class then identified the match.",
+      "assignment": {
+        "prompt": "What observation did Nia make? Include evidence from the passage and explain it.",
+        "referenceText": "Nia noticed that bell and boat both begin with /b/. She tapped the starting sound twice. Her classmates named a matching pair.",
+        "concepts": [{"label": "Matching sound", "terms": ["bell and boat both begin with /b/", "begin with b sound"]}],
+        "expectedEvidence": ["bell and boat both begin with /b/"],
+        "minimumWords": 30,
+        "taskType": "evidence"
+      },
+      "humanRatings": [75, 80]
+    }
+  ]
+}

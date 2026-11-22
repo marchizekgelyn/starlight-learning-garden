@@ -1,0 +1,1025 @@
+level,unit_id,domain,skill,title,reading_word_count,objective_items,writing_tasks,tutorials
+PK,PK-R4-001,Ecology,Observation and detail,Creek After a Storm,109,10,3,5
+PK,PK-R4-002,Ecology,Sequence and cause,The Schoolyard Trees,102,10,3,5
+PK,PK-R4-003,Ecology,Context vocabulary,The Returning Bees,99,10,3,5
+PK,PK-R4-004,Ecology,Central idea,Wetland Walkway,103,10,3,5
+PK,PK-R4-005,Ecology,Evidence and warrants,The Compost Trial,104,10,3,5
+PK,PK-R4-006,Ecology,Perspective and purpose,City Night Sounds,103,10,3,5
+PK,PK-R4-007,Ecology,Claims and limits,The Fox Crossing,100,10,3,5
+PK,PK-R4-008,Ecology,Data literacy,A Garden in Heat,103,10,3,5
+PK,PK-R4-009,History,Counterarguments,The Missing Library Page,107,10,3,5
+PK,PK-R4-010,History,Synthesis across texts,A Bridge Remembered,103,10,3,5
+PK,PK-R4-011,History,Rhetoric and framing,The Market Street Letter,104,10,3,5
+PK,PK-R4-012,History,Transfer and critique,Two Newspaper Reports,100,10,3,5
+PK,PK-R4-013,History,Observation and detail,Maps of a Changing Harbor,105,10,3,5
+PK,PK-R4-014,History,Sequence and cause,The Pottery Fragments,99,10,3,5
+PK,PK-R4-015,History,Context vocabulary,The Assembly Petition,100,10,3,5
+PK,PK-R4-016,History,Central idea,Tracing a Family Route,103,10,3,5
+PK,PK-R4-017,Engineering,Evidence and warrants,The Paper Water Filter,105,10,3,5
+PK,PK-R4-018,Engineering,Perspective and purpose,Sunlight at the Bus Stop,105,10,3,5
+PK,PK-R4-019,Engineering,Claims and limits,The Wooden Span,105,10,3,5
+PK,PK-R4-020,Engineering,Data literacy,Bicycle Lane Signals,102,10,3,5
+PK,PK-R4-021,Engineering,Counterarguments,Flood Warning Board,108,10,3,5
+PK,PK-R4-022,Engineering,Synthesis across texts,The Quiet Classroom,94,10,3,5
+PK,PK-R4-023,Engineering,Rhetoric and framing,Heat in a Lunch Box,110,10,3,5
+PK,PK-R4-024,Engineering,Transfer and critique,Wind Against the Tower,102,10,3,5
+PK,PK-R4-025,Community,Observation and detail,The Shared Garden Plot,99,10,3,5
+PK,PK-R4-026,Community,Sequence and cause,The Lunch Line Survey,106,10,3,5
+PK,PK-R4-027,Community,Context vocabulary,The Park Bench Debate,102,10,3,5
+PK,PK-R4-028,Community,Central idea,The Recycling Signs,100,10,3,5
+PK,PK-R4-029,Community,Evidence and warrants,A New Bus Route,103,10,3,5
+PK,PK-R4-030,Community,Perspective and purpose,The Tutoring Circle,91,10,3,5
+PK,PK-R4-031,Community,Claims and limits,The Mural Proposal,98,10,3,5
+PK,PK-R4-032,Community,Data literacy,The Emergency Kit Shelf,100,10,3,5
+PK,PK-R4-033,Technology,Counterarguments,The School App Permission,103,10,3,5
+PK,PK-R4-034,Technology,Synthesis across texts,Search Result Order,103,10,3,5
+PK,PK-R4-035,Technology,Rhetoric and framing,The Image Caption,99,10,3,5
+PK,PK-R4-036,Technology,Transfer and critique,Sensors in the Garden,103,10,3,5
+PK,PK-R4-037,Technology,Observation and detail,The Rumor Screenshot,104,10,3,5
+PK,PK-R4-038,Technology,Sequence and cause,The Lost Draft,104,10,3,5
+PK,PK-R4-039,Technology,Context vocabulary,The Fairness Dashboard,99,10,3,5
+PK,PK-R4-040,Technology,Central idea,The Editable History Page,110,10,3,5
+PK,PK-R4-041,Literature,Evidence and warrants,The Lighthouse Notebook,107,10,3,5
+PK,PK-R4-042,Literature,Perspective and purpose,The Clockmaker's Door,106,10,3,5
+PK,PK-R4-043,Literature,Claims and limits,The Seed in Winter,105,10,3,5
+PK,PK-R4-044,Literature,Data literacy,The Unsent Postcard,108,10,3,5
+PK,PK-R4-045,Literature,Counterarguments,The Glass Violin,101,10,3,5
+PK,PK-R4-046,Literature,Synthesis across texts,The Unmarked Path,111,10,3,5
+PK,PK-R4-047,Literature,Rhetoric and framing,A Window at Dawn,99,10,3,5
+PK,PK-R4-048,Literature,Transfer and critique,The Last Blue Ribbon,102,10,3,5
+PK,PK-R4-049,Science,Observation and detail,Sleep and the Class Survey,109,10,3,5
+PK,PK-R4-050,Science,Sequence and cause,Labels on the Cereal Box,100,10,3,5
+PK,PK-R4-051,Science,Context vocabulary,The Cloud Chamber Log,100,10,3,5
+PK,PK-R4-052,Science,Central idea,The Medicine Study Headline,101,10,3,5
+PK,PK-R4-053,Science,Evidence and warrants,The Lake Temperature Series,104,10,3,5
+PK,PK-R4-054,Science,Perspective and purpose,The Soil Microbe Exhibit,103,10,3,5
+PK,PK-R4-055,Science,Claims and limits,Two Test Groups,101,10,3,5
+PK,PK-R4-056,Science,Data literacy,The Bird Count Map,110,10,3,5
+PK,PK-R4-057,Argument,Counterarguments,The School Budget Choice,97,10,3,5
+PK,PK-R4-058,Argument,Synthesis across texts,The Bicycle Repair Shop,100,10,3,5
+PK,PK-R4-059,Argument,Rhetoric and framing,The Library Hours Proposal,98,10,3,5
+PK,PK-R4-060,Argument,Transfer and critique,The Reusable Cup Debate,102,10,3,5
+PK,PK-R4-061,Argument,Observation and detail,The Local Product Claim,98,10,3,5
+PK,PK-R4-062,Argument,Sequence and cause,The Garden Water Rule,111,10,3,5
+PK,PK-R4-063,Argument,Context vocabulary,Remote Learning Choice,96,10,3,5
+PK,PK-R4-064,Argument,Central idea,The Repair or Replace Decision,103,10,3,5
+K,K-R4-001,Ecology,Observation and detail,Creek After a Storm,126,10,3,5
+K,K-R4-002,Ecology,Sequence and cause,The Schoolyard Trees,119,10,3,5
+K,K-R4-003,Ecology,Context vocabulary,The Returning Bees,116,10,3,5
+K,K-R4-004,Ecology,Central idea,Wetland Walkway,120,10,3,5
+K,K-R4-005,Ecology,Evidence and warrants,The Compost Trial,121,10,3,5
+K,K-R4-006,Ecology,Perspective and purpose,City Night Sounds,120,10,3,5
+K,K-R4-007,Ecology,Claims and limits,The Fox Crossing,117,10,3,5
+K,K-R4-008,Ecology,Data literacy,A Garden in Heat,120,10,3,5
+K,K-R4-009,History,Counterarguments,The Missing Library Page,124,10,3,5
+K,K-R4-010,History,Synthesis across texts,A Bridge Remembered,120,10,3,5
+K,K-R4-011,History,Rhetoric and framing,The Market Street Letter,121,10,3,5
+K,K-R4-012,History,Transfer and critique,Two Newspaper Reports,117,10,3,5
+K,K-R4-013,History,Observation and detail,Maps of a Changing Harbor,122,10,3,5
+K,K-R4-014,History,Sequence and cause,The Pottery Fragments,116,10,3,5
+K,K-R4-015,History,Context vocabulary,The Assembly Petition,117,10,3,5
+K,K-R4-016,History,Central idea,Tracing a Family Route,120,10,3,5
+K,K-R4-017,Engineering,Evidence and warrants,The Paper Water Filter,122,10,3,5
+K,K-R4-018,Engineering,Perspective and purpose,Sunlight at the Bus Stop,122,10,3,5
+K,K-R4-019,Engineering,Claims and limits,The Wooden Span,122,10,3,5
+K,K-R4-020,Engineering,Data literacy,Bicycle Lane Signals,119,10,3,5
+K,K-R4-021,Engineering,Counterarguments,Flood Warning Board,125,10,3,5
+K,K-R4-022,Engineering,Synthesis across texts,The Quiet Classroom,111,10,3,5
+K,K-R4-023,Engineering,Rhetoric and framing,Heat in a Lunch Box,127,10,3,5
+K,K-R4-024,Engineering,Transfer and critique,Wind Against the Tower,119,10,3,5
+K,K-R4-025,Community,Observation and detail,The Shared Garden Plot,116,10,3,5
+K,K-R4-026,Community,Sequence and cause,The Lunch Line Survey,123,10,3,5
+K,K-R4-027,Community,Context vocabulary,The Park Bench Debate,119,10,3,5
+K,K-R4-028,Community,Central idea,The Recycling Signs,117,10,3,5
+K,K-R4-029,Community,Evidence and warrants,A New Bus Route,120,10,3,5
+K,K-R4-030,Community,Perspective and purpose,The Tutoring Circle,108,10,3,5
+K,K-R4-031,Community,Claims and limits,The Mural Proposal,115,10,3,5
+K,K-R4-032,Community,Data literacy,The Emergency Kit Shelf,117,10,3,5
+K,K-R4-033,Technology,Counterarguments,The School App Permission,120,10,3,5
+K,K-R4-034,Technology,Synthesis across texts,Search Result Order,120,10,3,5
+K,K-R4-035,Technology,Rhetoric and framing,The Image Caption,116,10,3,5
+K,K-R4-036,Technology,Transfer and critique,Sensors in the Garden,120,10,3,5
+K,K-R4-037,Technology,Observation and detail,The Rumor Screenshot,121,10,3,5
+K,K-R4-038,Technology,Sequence and cause,The Lost Draft,121,10,3,5
+K,K-R4-039,Technology,Context vocabulary,The Fairness Dashboard,116,10,3,5
+K,K-R4-040,Technology,Central idea,The Editable History Page,127,10,3,5
+K,K-R4-041,Literature,Evidence and warrants,The Lighthouse Notebook,124,10,3,5
+K,K-R4-042,Literature,Perspective and purpose,The Clockmaker's Door,123,10,3,5
+K,K-R4-043,Literature,Claims and limits,The Seed in Winter,122,10,3,5
+K,K-R4-044,Literature,Data literacy,The Unsent Postcard,125,10,3,5
+K,K-R4-045,Literature,Counterarguments,The Glass Violin,118,10,3,5
+K,K-R4-046,Literature,Synthesis across texts,The Unmarked Path,128,10,3,5
+K,K-R4-047,Literature,Rhetoric and framing,A Window at Dawn,116,10,3,5
+K,K-R4-048,Literature,Transfer and critique,The Last Blue Ribbon,119,10,3,5
+K,K-R4-049,Science,Observation and detail,Sleep and the Class Survey,126,10,3,5
+K,K-R4-050,Science,Sequence and cause,Labels on the Cereal Box,117,10,3,5
+K,K-R4-051,Science,Context vocabulary,The Cloud Chamber Log,117,10,3,5
+K,K-R4-052,Science,Central idea,The Medicine Study Headline,118,10,3,5
+K,K-R4-053,Science,Evidence and warrants,The Lake Temperature Series,121,10,3,5
+K,K-R4-054,Science,Perspective and purpose,The Soil Microbe Exhibit,120,10,3,5
+K,K-R4-055,Science,Claims and limits,Two Test Groups,118,10,3,5
+K,K-R4-056,Science,Data literacy,The Bird Count Map,127,10,3,5
+K,K-R4-057,Argument,Counterarguments,The School Budget Choice,114,10,3,5
+K,K-R4-058,Argument,Synthesis across texts,The Bicycle Repair Shop,117,10,3,5
+K,K-R4-059,Argument,Rhetoric and framing,The Library Hours Proposal,115,10,3,5
+K,K-R4-060,Argument,Transfer and critique,The Reusable Cup Debate,119,10,3,5
+K,K-R4-061,Argument,Observation and detail,The Local Product Claim,115,10,3,5
+K,K-R4-062,Argument,Sequence and cause,The Garden Water Rule,128,10,3,5
+K,K-R4-063,Argument,Context vocabulary,Remote Learning Choice,113,10,3,5
+K,K-R4-064,Argument,Central idea,The Repair or Replace Decision,120,10,3,5
+1,1-R4-001,Ecology,Sequence and cause,Creek After a Storm,222,10,3,7
+1,1-R4-002,Ecology,Context vocabulary,The Schoolyard Trees,219,10,3,7
+1,1-R4-003,Ecology,Central idea,The Returning Bees,212,10,3,7
+1,1-R4-004,Ecology,Evidence and warrants,Wetland Walkway,216,10,3,7
+1,1-R4-005,Ecology,Perspective and purpose,The Compost Trial,219,10,3,7
+1,1-R4-006,Ecology,Claims and limits,City Night Sounds,212,10,3,7
+1,1-R4-007,Ecology,Data literacy,The Fox Crossing,209,10,3,7
+1,1-R4-008,Ecology,Counterarguments,A Garden in Heat,213,10,3,7
+1,1-R4-009,History,Synthesis across texts,The Missing Library Page,222,10,3,7
+1,1-R4-010,History,Rhetoric and framing,A Bridge Remembered,217,10,3,7
+1,1-R4-011,History,Transfer and critique,The Market Street Letter,219,10,3,7
+1,1-R4-012,History,Observation and detail,Two Newspaper Reports,215,10,3,7
+1,1-R4-013,History,Sequence and cause,Maps of a Changing Harbor,216,10,3,7
+1,1-R4-014,History,Context vocabulary,The Pottery Fragments,209,10,3,7
+1,1-R4-015,History,Central idea,The Assembly Petition,205,10,3,7
+1,1-R4-016,History,Evidence and warrants,Tracing a Family Route,213,10,3,7
+1,1-R4-017,Engineering,Perspective and purpose,The Paper Water Filter,224,10,3,7
+1,1-R4-018,Engineering,Claims and limits,Sunlight at the Bus Stop,212,10,3,7
+1,1-R4-019,Engineering,Data literacy,The Wooden Span,218,10,3,7
+1,1-R4-020,Engineering,Counterarguments,Bicycle Lane Signals,217,10,3,7
+1,1-R4-021,Engineering,Synthesis across texts,Flood Warning Board,229,10,3,7
+1,1-R4-022,Engineering,Rhetoric and framing,The Quiet Classroom,211,10,3,7
+1,1-R4-023,Engineering,Transfer and critique,Heat in a Lunch Box,219,10,3,7
+1,1-R4-024,Engineering,Observation and detail,Wind Against the Tower,208,10,3,7
+1,1-R4-025,Community,Sequence and cause,The Shared Garden Plot,205,10,3,7
+1,1-R4-026,Community,Context vocabulary,The Lunch Line Survey,214,10,3,7
+1,1-R4-027,Community,Central idea,The Park Bench Debate,210,10,3,7
+1,1-R4-028,Community,Evidence and warrants,The Recycling Signs,202,10,3,7
+1,1-R4-029,Community,Perspective and purpose,A New Bus Route,226,10,3,7
+1,1-R4-030,Community,Claims and limits,The Tutoring Circle,190,10,3,7
+1,1-R4-031,Community,Data literacy,The Mural Proposal,211,10,3,7
+1,1-R4-032,Community,Counterarguments,The Emergency Kit Shelf,217,10,3,7
+1,1-R4-033,Technology,Synthesis across texts,The School App Permission,220,10,3,7
+1,1-R4-034,Technology,Rhetoric and framing,Search Result Order,219,10,3,7
+1,1-R4-035,Technology,Transfer and critique,The Image Caption,213,10,3,7
+1,1-R4-036,Technology,Observation and detail,Sensors in the Garden,222,10,3,7
+1,1-R4-037,Technology,Sequence and cause,The Rumor Screenshot,222,10,3,7
+1,1-R4-038,Technology,Context vocabulary,The Lost Draft,214,10,3,7
+1,1-R4-039,Technology,Central idea,The Fairness Dashboard,205,10,3,7
+1,1-R4-040,Technology,Evidence and warrants,The Editable History Page,229,10,3,7
+1,1-R4-041,Literature,Perspective and purpose,The Lighthouse Notebook,221,10,3,7
+1,1-R4-042,Literature,Claims and limits,The Clockmaker's Door,220,10,3,7
+1,1-R4-043,Literature,Data literacy,The Seed in Winter,221,10,3,7
+1,1-R4-044,Literature,Counterarguments,The Unsent Postcard,218,10,3,7
+1,1-R4-045,Literature,Synthesis across texts,The Glass Violin,219,10,3,7
+1,1-R4-046,Literature,Rhetoric and framing,The Unmarked Path,226,10,3,7
+1,1-R4-047,Literature,Transfer and critique,A Window at Dawn,215,10,3,7
+1,1-R4-048,Literature,Observation and detail,The Last Blue Ribbon,216,10,3,7
+1,1-R4-049,Science,Sequence and cause,Sleep and the Class Survey,215,10,3,7
+1,1-R4-050,Science,Context vocabulary,Labels on the Cereal Box,208,10,3,7
+1,1-R4-051,Science,Central idea,The Cloud Chamber Log,205,10,3,7
+1,1-R4-052,Science,Evidence and warrants,The Medicine Study Headline,221,10,3,7
+1,1-R4-053,Science,Perspective and purpose,The Lake Temperature Series,216,10,3,7
+1,1-R4-054,Science,Claims and limits,The Soil Microbe Exhibit,214,10,3,7
+1,1-R4-055,Science,Data literacy,Two Test Groups,207,10,3,7
+1,1-R4-056,Science,Counterarguments,The Bird Count Map,224,10,3,7
+1,1-R4-057,Argument,Synthesis across texts,The School Budget Choice,211,10,3,7
+1,1-R4-058,Argument,Rhetoric and framing,The Bicycle Repair Shop,218,10,3,7
+1,1-R4-059,Argument,Transfer and critique,The Library Hours Proposal,204,10,3,7
+1,1-R4-060,Argument,Observation and detail,The Reusable Cup Debate,221,10,3,7
+1,1-R4-061,Argument,Sequence and cause,The Local Product Claim,201,10,3,7
+1,1-R4-062,Argument,Context vocabulary,The Garden Water Rule,218,10,3,7
+1,1-R4-063,Argument,Central idea,Remote Learning Choice,201,10,3,7
+1,1-R4-064,Argument,Evidence and warrants,The Repair or Replace Decision,219,10,3,7
+2,2-R4-001,Ecology,Sequence and cause,Creek After a Storm,258,10,3,7
+2,2-R4-002,Ecology,Context vocabulary,The Schoolyard Trees,257,10,3,7
+2,2-R4-003,Ecology,Central idea,The Returning Bees,249,10,3,7
+2,2-R4-004,Ecology,Evidence and warrants,Wetland Walkway,253,10,3,7
+2,2-R4-005,Ecology,Perspective and purpose,The Compost Trial,259,10,3,7
+2,2-R4-006,Ecology,Claims and limits,City Night Sounds,244,10,3,7
+2,2-R4-007,Ecology,Data literacy,The Fox Crossing,242,10,3,7
+2,2-R4-008,Ecology,Counterarguments,A Garden in Heat,249,10,3,7
+2,2-R4-009,History,Synthesis across texts,The Missing Library Page,258,10,3,7
+2,2-R4-010,History,Rhetoric and framing,A Bridge Remembered,252,10,3,7
+2,2-R4-011,History,Transfer and critique,The Market Street Letter,255,10,3,7
+2,2-R4-012,History,Observation and detail,Two Newspaper Reports,252,10,3,7
+2,2-R4-013,History,Sequence and cause,Maps of a Changing Harbor,251,10,3,7
+2,2-R4-014,History,Context vocabulary,The Pottery Fragments,249,10,3,7
+2,2-R4-015,History,Central idea,The Assembly Petition,242,10,3,7
+2,2-R4-016,History,Evidence and warrants,Tracing a Family Route,252,10,3,7
+2,2-R4-017,Engineering,Perspective and purpose,The Paper Water Filter,266,10,3,7
+2,2-R4-018,Engineering,Claims and limits,Sunlight at the Bus Stop,250,10,3,7
+2,2-R4-019,Engineering,Data literacy,The Wooden Span,253,10,3,7
+2,2-R4-020,Engineering,Counterarguments,Bicycle Lane Signals,254,10,3,7
+2,2-R4-021,Engineering,Synthesis across texts,Flood Warning Board,270,10,3,7
+2,2-R4-022,Engineering,Rhetoric and framing,The Quiet Classroom,257,10,3,7
+2,2-R4-023,Engineering,Transfer and critique,Heat in a Lunch Box,254,10,3,7
+2,2-R4-024,Engineering,Observation and detail,Wind Against the Tower,243,10,3,7
+2,2-R4-025,Community,Sequence and cause,The Shared Garden Plot,241,10,3,7
+2,2-R4-026,Community,Context vocabulary,The Lunch Line Survey,252,10,3,7
+2,2-R4-027,Community,Central idea,The Park Bench Debate,250,10,3,7
+2,2-R4-028,Community,Evidence and warrants,The Recycling Signs,237,10,3,7
+2,2-R4-029,Community,Perspective and purpose,A New Bus Route,259,10,3,7
+2,2-R4-030,Community,Claims and limits,The Tutoring Circle,227,10,3,7
+2,2-R4-031,Community,Data literacy,The Mural Proposal,247,10,3,7
+2,2-R4-032,Community,Counterarguments,The Emergency Kit Shelf,257,10,3,7
+2,2-R4-033,Technology,Synthesis across texts,The School App Permission,260,10,3,7
+2,2-R4-034,Technology,Rhetoric and framing,Search Result Order,255,10,3,7
+2,2-R4-035,Technology,Transfer and critique,The Image Caption,256,10,3,7
+2,2-R4-036,Technology,Observation and detail,Sensors in the Garden,260,10,3,7
+2,2-R4-037,Technology,Sequence and cause,The Rumor Screenshot,257,10,3,7
+2,2-R4-038,Technology,Context vocabulary,The Lost Draft,249,10,3,7
+2,2-R4-039,Technology,Central idea,The Fairness Dashboard,238,10,3,7
+2,2-R4-040,Technology,Evidence and warrants,The Editable History Page,268,10,3,7
+2,2-R4-041,Literature,Perspective and purpose,The Lighthouse Notebook,258,10,3,7
+2,2-R4-042,Literature,Claims and limits,The Clockmaker's Door,257,10,3,7
+2,2-R4-043,Literature,Data literacy,The Seed in Winter,263,10,3,7
+2,2-R4-044,Literature,Counterarguments,The Unsent Postcard,250,10,3,7
+2,2-R4-045,Literature,Synthesis across texts,The Glass Violin,256,10,3,7
+2,2-R4-046,Literature,Rhetoric and framing,The Unmarked Path,263,10,3,7
+2,2-R4-047,Literature,Transfer and critique,A Window at Dawn,251,10,3,7
+2,2-R4-048,Literature,Observation and detail,The Last Blue Ribbon,256,10,3,7
+2,2-R4-049,Science,Sequence and cause,Sleep and the Class Survey,252,10,3,7
+2,2-R4-050,Science,Context vocabulary,Labels on the Cereal Box,245,10,3,7
+2,2-R4-051,Science,Central idea,The Cloud Chamber Log,239,10,3,7
+2,2-R4-052,Science,Evidence and warrants,The Medicine Study Headline,264,10,3,7
+2,2-R4-053,Science,Perspective and purpose,The Lake Temperature Series,252,10,3,7
+2,2-R4-054,Science,Claims and limits,The Soil Microbe Exhibit,251,10,3,7
+2,2-R4-055,Science,Data literacy,Two Test Groups,245,10,3,7
+2,2-R4-056,Science,Counterarguments,The Bird Count Map,258,10,3,7
+2,2-R4-057,Argument,Synthesis across texts,The School Budget Choice,252,10,3,7
+2,2-R4-058,Argument,Rhetoric and framing,The Bicycle Repair Shop,254,10,3,7
+2,2-R4-059,Argument,Transfer and critique,The Library Hours Proposal,241,10,3,7
+2,2-R4-060,Argument,Observation and detail,The Reusable Cup Debate,260,10,3,7
+2,2-R4-061,Argument,Sequence and cause,The Local Product Claim,234,10,3,7
+2,2-R4-062,Argument,Context vocabulary,The Garden Water Rule,247,10,3,7
+2,2-R4-063,Argument,Central idea,Remote Learning Choice,236,10,3,7
+2,2-R4-064,Argument,Evidence and warrants,The Repair or Replace Decision,256,10,3,7
+3,3-R4-001,Ecology,Context vocabulary,Creek After a Storm,672,10,3,7
+3,3-R4-002,Ecology,Central idea,The Schoolyard Trees,673,10,3,7
+3,3-R4-003,Ecology,Evidence and warrants,The Returning Bees,668,10,3,7
+3,3-R4-004,Ecology,Perspective and purpose,Wetland Walkway,670,10,3,7
+3,3-R4-005,Ecology,Claims and limits,The Compost Trial,676,10,3,7
+3,3-R4-006,Ecology,Data literacy,City Night Sounds,658,10,3,7
+3,3-R4-007,Ecology,Counterarguments,The Fox Crossing,658,10,3,7
+3,3-R4-008,Ecology,Synthesis across texts,A Garden in Heat,662,10,3,7
+3,3-R4-009,History,Rhetoric and framing,The Missing Library Page,674,10,3,7
+3,3-R4-010,History,Transfer and critique,A Bridge Remembered,667,10,3,7
+3,3-R4-011,History,Observation and detail,The Market Street Letter,671,10,3,7
+3,3-R4-012,History,Sequence and cause,Two Newspaper Reports,669,10,3,7
+3,3-R4-013,History,Context vocabulary,Maps of a Changing Harbor,664,10,3,7
+3,3-R4-014,History,Central idea,The Pottery Fragments,664,10,3,7
+3,3-R4-015,History,Evidence and warrants,The Assembly Petition,653,10,3,7
+3,3-R4-016,History,Perspective and purpose,Tracing a Family Route,666,10,3,7
+3,3-R4-017,Engineering,Claims and limits,The Paper Water Filter,680,10,3,7
+3,3-R4-018,Engineering,Data literacy,Sunlight at the Bus Stop,665,10,3,7
+3,3-R4-019,Engineering,Counterarguments,The Wooden Span,670,10,3,7
+3,3-R4-020,Engineering,Synthesis across texts,Bicycle Lane Signals,670,10,3,7
+3,3-R4-021,Engineering,Rhetoric and framing,Flood Warning Board,684,10,3,7
+3,3-R4-022,Engineering,Transfer and critique,The Quiet Classroom,672,10,3,7
+3,3-R4-023,Engineering,Observation and detail,Heat in a Lunch Box,669,10,3,7
+3,3-R4-024,Engineering,Sequence and cause,Wind Against the Tower,657,10,3,7
+3,3-R4-025,Community,Context vocabulary,The Shared Garden Plot,653,10,3,7
+3,3-R4-026,Community,Central idea,The Lunch Line Survey,663,10,3,7
+3,3-R4-027,Community,Evidence and warrants,The Park Bench Debate,664,10,3,7
+3,3-R4-028,Community,Perspective and purpose,The Recycling Signs,655,10,3,7
+3,3-R4-029,Community,Claims and limits,A New Bus Route,680,10,3,7
+3,3-R4-030,Community,Data literacy,The Tutoring Circle,642,10,3,7
+3,3-R4-031,Community,Counterarguments,The Mural Proposal,668,10,3,7
+3,3-R4-032,Community,Synthesis across texts,The Emergency Kit Shelf,672,10,3,7
+3,3-R4-033,Technology,Rhetoric and framing,The School App Permission,675,10,3,7
+3,3-R4-034,Technology,Transfer and critique,Search Result Order,668,10,3,7
+3,3-R4-035,Technology,Observation and detail,The Image Caption,672,10,3,7
+3,3-R4-036,Technology,Sequence and cause,Sensors in the Garden,677,10,3,7
+3,3-R4-037,Technology,Context vocabulary,The Rumor Screenshot,673,10,3,7
+3,3-R4-038,Technology,Central idea,The Lost Draft,665,10,3,7
+3,3-R4-039,Technology,Evidence and warrants,The Fairness Dashboard,655,10,3,7
+3,3-R4-040,Technology,Perspective and purpose,The Editable History Page,684,10,3,7
+3,3-R4-041,Literature,Claims and limits,The Lighthouse Notebook,673,10,3,7
+3,3-R4-042,Literature,Data literacy,The Clockmaker's Door,669,10,3,7
+3,3-R4-043,Literature,Counterarguments,The Seed in Winter,677,10,3,7
+3,3-R4-044,Literature,Synthesis across texts,The Unsent Postcard,662,10,3,7
+3,3-R4-045,Literature,Rhetoric and framing,The Glass Violin,670,10,3,7
+3,3-R4-046,Literature,Transfer and critique,The Unmarked Path,678,10,3,7
+3,3-R4-047,Literature,Observation and detail,A Window at Dawn,665,10,3,7
+3,3-R4-048,Literature,Sequence and cause,The Last Blue Ribbon,670,10,3,7
+3,3-R4-049,Science,Context vocabulary,Sleep and the Class Survey,663,10,3,7
+3,3-R4-050,Science,Central idea,Labels on the Cereal Box,660,10,3,7
+3,3-R4-051,Science,Evidence and warrants,The Cloud Chamber Log,653,10,3,7
+3,3-R4-052,Science,Perspective and purpose,The Medicine Study Headline,681,10,3,7
+3,3-R4-053,Science,Claims and limits,The Lake Temperature Series,669,10,3,7
+3,3-R4-054,Science,Data literacy,The Soil Microbe Exhibit,665,10,3,7
+3,3-R4-055,Science,Counterarguments,Two Test Groups,660,10,3,7
+3,3-R4-056,Science,Synthesis across texts,The Bird Count Map,673,10,3,7
+3,3-R4-057,Argument,Rhetoric and framing,The School Budget Choice,672,10,3,7
+3,3-R4-058,Argument,Transfer and critique,The Bicycle Repair Shop,673,10,3,7
+3,3-R4-059,Argument,Observation and detail,The Library Hours Proposal,652,10,3,7
+3,3-R4-060,Argument,Sequence and cause,The Reusable Cup Debate,675,10,3,7
+3,3-R4-061,Argument,Context vocabulary,The Local Product Claim,649,10,3,7
+3,3-R4-062,Argument,Central idea,The Garden Water Rule,662,10,3,7
+3,3-R4-063,Argument,Evidence and warrants,Remote Learning Choice,648,10,3,7
+3,3-R4-064,Argument,Perspective and purpose,The Repair or Replace Decision,671,10,3,7
+4,4-R4-001,Ecology,Context vocabulary,Creek After a Storm,1034,10,3,10
+4,4-R4-002,Ecology,Central idea,The Schoolyard Trees,1036,10,3,10
+4,4-R4-003,Ecology,Evidence and warrants,The Returning Bees,1033,10,3,10
+4,4-R4-004,Ecology,Perspective and purpose,Wetland Walkway,1035,10,3,10
+4,4-R4-005,Ecology,Claims and limits,The Compost Trial,1040,10,3,10
+4,4-R4-006,Ecology,Data literacy,City Night Sounds,1020,10,3,10
+4,4-R4-007,Ecology,Counterarguments,The Fox Crossing,1021,10,3,10
+4,4-R4-008,Ecology,Synthesis across texts,A Garden in Heat,1022,10,3,10
+4,4-R4-009,History,Rhetoric and framing,The Missing Library Page,1039,10,3,10
+4,4-R4-010,History,Transfer and critique,A Bridge Remembered,1030,10,3,10
+4,4-R4-011,History,Observation and detail,The Market Street Letter,1034,10,3,10
+4,4-R4-012,History,Sequence and cause,Two Newspaper Reports,1033,10,3,10
+4,4-R4-013,History,Context vocabulary,Maps of a Changing Harbor,1026,10,3,10
+4,4-R4-014,History,Central idea,The Pottery Fragments,1025,10,3,10
+4,4-R4-015,History,Evidence and warrants,The Assembly Petition,1010,10,3,10
+4,4-R4-016,History,Perspective and purpose,Tracing a Family Route,1027,10,3,10
+4,4-R4-017,Engineering,Claims and limits,The Paper Water Filter,1041,10,3,10
+4,4-R4-018,Engineering,Data literacy,Sunlight at the Bus Stop,1026,10,3,10
+4,4-R4-019,Engineering,Counterarguments,The Wooden Span,1035,10,3,10
+4,4-R4-020,Engineering,Synthesis across texts,Bicycle Lane Signals,1031,10,3,10
+4,4-R4-021,Engineering,Rhetoric and framing,Flood Warning Board,1047,10,3,10
+4,4-R4-022,Engineering,Transfer and critique,The Quiet Classroom,1030,10,3,10
+4,4-R4-023,Engineering,Observation and detail,Heat in a Lunch Box,1033,10,3,10
+4,4-R4-024,Engineering,Sequence and cause,Wind Against the Tower,1017,10,3,10
+4,4-R4-025,Community,Context vocabulary,The Shared Garden Plot,1010,10,3,10
+4,4-R4-026,Community,Central idea,The Lunch Line Survey,1023,10,3,10
+4,4-R4-027,Community,Evidence and warrants,The Park Bench Debate,1023,10,3,10
+4,4-R4-028,Community,Perspective and purpose,The Recycling Signs,1018,10,3,10
+4,4-R4-029,Community,Claims and limits,A New Bus Route,1049,10,3,10
+4,4-R4-030,Community,Data literacy,The Tutoring Circle,998,10,3,10
+4,4-R4-031,Community,Counterarguments,The Mural Proposal,1036,10,3,10
+4,4-R4-032,Community,Synthesis across texts,The Emergency Kit Shelf,1032,10,3,10
+4,4-R4-033,Technology,Rhetoric and framing,The School App Permission,1037,10,3,10
+4,4-R4-034,Technology,Transfer and critique,Search Result Order,1029,10,3,10
+4,4-R4-035,Technology,Observation and detail,The Image Caption,1032,10,3,10
+4,4-R4-036,Technology,Sequence and cause,Sensors in the Garden,1039,10,3,10
+4,4-R4-037,Technology,Context vocabulary,The Rumor Screenshot,1037,10,3,10
+4,4-R4-038,Technology,Central idea,The Lost Draft,1029,10,3,10
+4,4-R4-039,Technology,Evidence and warrants,The Fairness Dashboard,1018,10,3,10
+4,4-R4-040,Technology,Perspective and purpose,The Editable History Page,1049,10,3,10
+4,4-R4-041,Literature,Claims and limits,The Lighthouse Notebook,1036,10,3,10
+4,4-R4-042,Literature,Data literacy,The Clockmaker's Door,1031,10,3,10
+4,4-R4-043,Literature,Counterarguments,The Seed in Winter,1038,10,3,10
+4,4-R4-044,Literature,Synthesis across texts,The Unsent Postcard,1024,10,3,10
+4,4-R4-045,Literature,Rhetoric and framing,The Glass Violin,1032,10,3,10
+4,4-R4-046,Literature,Transfer and critique,The Unmarked Path,1042,10,3,10
+4,4-R4-047,Literature,Observation and detail,A Window at Dawn,1026,10,3,10
+4,4-R4-048,Literature,Sequence and cause,The Last Blue Ribbon,1030,10,3,10
+4,4-R4-049,Science,Context vocabulary,Sleep and the Class Survey,1022,10,3,10
+4,4-R4-050,Science,Central idea,Labels on the Cereal Box,1020,10,3,10
+4,4-R4-051,Science,Evidence and warrants,The Cloud Chamber Log,1013,10,3,10
+4,4-R4-052,Science,Perspective and purpose,The Medicine Study Headline,1043,10,3,10
+4,4-R4-053,Science,Claims and limits,The Lake Temperature Series,1033,10,3,10
+4,4-R4-054,Science,Data literacy,The Soil Microbe Exhibit,1026,10,3,10
+4,4-R4-055,Science,Counterarguments,Two Test Groups,1019,10,3,10
+4,4-R4-056,Science,Synthesis across texts,The Bird Count Map,1037,10,3,10
+4,4-R4-057,Argument,Rhetoric and framing,The School Budget Choice,1035,10,3,10
+4,4-R4-058,Argument,Transfer and critique,The Bicycle Repair Shop,1038,10,3,10
+4,4-R4-059,Argument,Observation and detail,The Library Hours Proposal,1009,10,3,10
+4,4-R4-060,Argument,Sequence and cause,The Reusable Cup Debate,1037,10,3,10
+4,4-R4-061,Argument,Context vocabulary,The Local Product Claim,1010,10,3,10
+4,4-R4-062,Argument,Central idea,The Garden Water Rule,1029,10,3,10
+4,4-R4-063,Argument,Evidence and warrants,Remote Learning Choice,1005,10,3,10
+4,4-R4-064,Argument,Perspective and purpose,The Repair or Replace Decision,1034,10,3,10
+5,5-R4-001,Ecology,Central idea,Creek After a Storm,1195,10,3,10
+5,5-R4-002,Ecology,Evidence and warrants,The Schoolyard Trees,1189,10,3,10
+5,5-R4-003,Ecology,Perspective and purpose,The Returning Bees,1190,10,3,10
+5,5-R4-004,Ecology,Claims and limits,Wetland Walkway,1191,10,3,10
+5,5-R4-005,Ecology,Data literacy,The Compost Trial,1194,10,3,10
+5,5-R4-006,Ecology,Counterarguments,City Night Sounds,1179,10,3,10
+5,5-R4-007,Ecology,Synthesis across texts,The Fox Crossing,1179,10,3,10
+5,5-R4-008,Ecology,Rhetoric and framing,A Garden in Heat,1179,10,3,10
+5,5-R4-009,History,Transfer and critique,The Missing Library Page,1200,10,3,10
+5,5-R4-010,History,Observation and detail,A Bridge Remembered,1187,10,3,10
+5,5-R4-011,History,Sequence and cause,The Market Street Letter,1184,10,3,10
+5,5-R4-012,History,Context vocabulary,Two Newspaper Reports,1190,10,3,10
+5,5-R4-013,History,Central idea,Maps of a Changing Harbor,1183,10,3,10
+5,5-R4-014,History,Evidence and warrants,The Pottery Fragments,1184,10,3,10
+5,5-R4-015,History,Perspective and purpose,The Assembly Petition,1168,10,3,10
+5,5-R4-016,History,Claims and limits,Tracing a Family Route,1184,10,3,10
+5,5-R4-017,Engineering,Data literacy,The Paper Water Filter,1197,10,3,10
+5,5-R4-018,Engineering,Counterarguments,Sunlight at the Bus Stop,1178,10,3,10
+5,5-R4-019,Engineering,Synthesis across texts,The Wooden Span,1188,10,3,10
+5,5-R4-020,Engineering,Rhetoric and framing,Bicycle Lane Signals,1186,10,3,10
+5,5-R4-021,Engineering,Transfer and critique,Flood Warning Board,1202,10,3,10
+5,5-R4-022,Engineering,Observation and detail,The Quiet Classroom,1185,10,3,10
+5,5-R4-023,Engineering,Sequence and cause,Heat in a Lunch Box,1189,10,3,10
+5,5-R4-024,Engineering,Context vocabulary,Wind Against the Tower,1174,10,3,10
+5,5-R4-025,Community,Central idea,The Shared Garden Plot,1163,10,3,10
+5,5-R4-026,Community,Evidence and warrants,The Lunch Line Survey,1177,10,3,10
+5,5-R4-027,Community,Perspective and purpose,The Park Bench Debate,1178,10,3,10
+5,5-R4-028,Community,Claims and limits,The Recycling Signs,1175,10,3,10
+5,5-R4-029,Community,Data literacy,A New Bus Route,1199,10,3,10
+5,5-R4-030,Community,Counterarguments,The Tutoring Circle,1152,10,3,10
+5,5-R4-031,Community,Synthesis across texts,The Mural Proposal,1190,10,3,10
+5,5-R4-032,Community,Rhetoric and framing,The Emergency Kit Shelf,1187,10,3,10
+5,5-R4-033,Technology,Transfer and critique,The School App Permission,1195,10,3,10
+5,5-R4-034,Technology,Observation and detail,Search Result Order,1184,10,3,10
+5,5-R4-035,Technology,Sequence and cause,The Image Caption,1185,10,3,10
+5,5-R4-036,Technology,Context vocabulary,Sensors in the Garden,1196,10,3,10
+5,5-R4-037,Technology,Central idea,The Rumor Screenshot,1197,10,3,10
+5,5-R4-038,Technology,Evidence and warrants,The Lost Draft,1188,10,3,10
+5,5-R4-039,Technology,Perspective and purpose,The Fairness Dashboard,1174,10,3,10
+5,5-R4-040,Technology,Claims and limits,The Editable History Page,1205,10,3,10
+5,5-R4-041,Literature,Data literacy,The Lighthouse Notebook,1194,10,3,10
+5,5-R4-042,Literature,Counterarguments,The Clockmaker's Door,1191,10,3,10
+5,5-R4-043,Literature,Synthesis across texts,The Seed in Winter,1196,10,3,10
+5,5-R4-044,Literature,Rhetoric and framing,The Unsent Postcard,1180,10,3,10
+5,5-R4-045,Literature,Transfer and critique,The Glass Violin,1186,10,3,10
+5,5-R4-046,Literature,Observation and detail,The Unmarked Path,1196,10,3,10
+5,5-R4-047,Literature,Sequence and cause,A Window at Dawn,1184,10,3,10
+5,5-R4-048,Literature,Context vocabulary,The Last Blue Ribbon,1186,10,3,10
+5,5-R4-049,Science,Central idea,Sleep and the Class Survey,1175,10,3,10
+5,5-R4-050,Science,Evidence and warrants,Labels on the Cereal Box,1178,10,3,10
+5,5-R4-051,Science,Perspective and purpose,The Cloud Chamber Log,1166,10,3,10
+5,5-R4-052,Science,Claims and limits,The Medicine Study Headline,1196,10,3,10
+5,5-R4-053,Science,Data literacy,The Lake Temperature Series,1186,10,3,10
+5,5-R4-054,Science,Counterarguments,The Soil Microbe Exhibit,1182,10,3,10
+5,5-R4-055,Science,Synthesis across texts,Two Test Groups,1172,10,3,10
+5,5-R4-056,Science,Rhetoric and framing,The Bird Count Map,1190,10,3,10
+5,5-R4-057,Argument,Transfer and critique,The School Budget Choice,1189,10,3,10
+5,5-R4-058,Argument,Observation and detail,The Bicycle Repair Shop,1193,10,3,10
+5,5-R4-059,Argument,Sequence and cause,The Library Hours Proposal,1164,10,3,10
+5,5-R4-060,Argument,Context vocabulary,The Reusable Cup Debate,1192,10,3,10
+5,5-R4-061,Argument,Central idea,The Local Product Claim,1167,10,3,10
+5,5-R4-062,Argument,Evidence and warrants,The Garden Water Rule,1181,10,3,10
+5,5-R4-063,Argument,Perspective and purpose,Remote Learning Choice,1160,10,3,10
+5,5-R4-064,Argument,Claims and limits,The Repair or Replace Decision,1192,10,3,10
+6,6-R4-001,Ecology,Central idea,Creek After a Storm,1195,10,3,10
+6,6-R4-002,Ecology,Evidence and warrants,The Schoolyard Trees,1189,10,3,10
+6,6-R4-003,Ecology,Perspective and purpose,The Returning Bees,1190,10,3,10
+6,6-R4-004,Ecology,Claims and limits,Wetland Walkway,1191,10,3,10
+6,6-R4-005,Ecology,Data literacy,The Compost Trial,1194,10,3,10
+6,6-R4-006,Ecology,Counterarguments,City Night Sounds,1179,10,3,10
+6,6-R4-007,Ecology,Synthesis across texts,The Fox Crossing,1179,10,3,10
+6,6-R4-008,Ecology,Rhetoric and framing,A Garden in Heat,1179,10,3,10
+6,6-R4-009,History,Transfer and critique,The Missing Library Page,1200,10,3,10
+6,6-R4-010,History,Observation and detail,A Bridge Remembered,1187,10,3,10
+6,6-R4-011,History,Sequence and cause,The Market Street Letter,1184,10,3,10
+6,6-R4-012,History,Context vocabulary,Two Newspaper Reports,1190,10,3,10
+6,6-R4-013,History,Central idea,Maps of a Changing Harbor,1183,10,3,10
+6,6-R4-014,History,Evidence and warrants,The Pottery Fragments,1184,10,3,10
+6,6-R4-015,History,Perspective and purpose,The Assembly Petition,1168,10,3,10
+6,6-R4-016,History,Claims and limits,Tracing a Family Route,1184,10,3,10
+6,6-R4-017,Engineering,Data literacy,The Paper Water Filter,1197,10,3,10
+6,6-R4-018,Engineering,Counterarguments,Sunlight at the Bus Stop,1178,10,3,10
+6,6-R4-019,Engineering,Synthesis across texts,The Wooden Span,1188,10,3,10
+6,6-R4-020,Engineering,Rhetoric and framing,Bicycle Lane Signals,1186,10,3,10
+6,6-R4-021,Engineering,Transfer and critique,Flood Warning Board,1202,10,3,10
+6,6-R4-022,Engineering,Observation and detail,The Quiet Classroom,1185,10,3,10
+6,6-R4-023,Engineering,Sequence and cause,Heat in a Lunch Box,1189,10,3,10
+6,6-R4-024,Engineering,Context vocabulary,Wind Against the Tower,1174,10,3,10
+6,6-R4-025,Community,Central idea,The Shared Garden Plot,1163,10,3,10
+6,6-R4-026,Community,Evidence and warrants,The Lunch Line Survey,1177,10,3,10
+6,6-R4-027,Community,Perspective and purpose,The Park Bench Debate,1178,10,3,10
+6,6-R4-028,Community,Claims and limits,The Recycling Signs,1175,10,3,10
+6,6-R4-029,Community,Data literacy,A New Bus Route,1199,10,3,10
+6,6-R4-030,Community,Counterarguments,The Tutoring Circle,1152,10,3,10
+6,6-R4-031,Community,Synthesis across texts,The Mural Proposal,1190,10,3,10
+6,6-R4-032,Community,Rhetoric and framing,The Emergency Kit Shelf,1187,10,3,10
+6,6-R4-033,Technology,Transfer and critique,The School App Permission,1195,10,3,10
+6,6-R4-034,Technology,Observation and detail,Search Result Order,1184,10,3,10
+6,6-R4-035,Technology,Sequence and cause,The Image Caption,1185,10,3,10
+6,6-R4-036,Technology,Context vocabulary,Sensors in the Garden,1196,10,3,10
+6,6-R4-037,Technology,Central idea,The Rumor Screenshot,1197,10,3,10
+6,6-R4-038,Technology,Evidence and warrants,The Lost Draft,1188,10,3,10
+6,6-R4-039,Technology,Perspective and purpose,The Fairness Dashboard,1174,10,3,10
+6,6-R4-040,Technology,Claims and limits,The Editable History Page,1205,10,3,10
+6,6-R4-041,Literature,Data literacy,The Lighthouse Notebook,1194,10,3,10
+6,6-R4-042,Literature,Counterarguments,The Clockmaker's Door,1191,10,3,10
+6,6-R4-043,Literature,Synthesis across texts,The Seed in Winter,1196,10,3,10
+6,6-R4-044,Literature,Rhetoric and framing,The Unsent Postcard,1180,10,3,10
+6,6-R4-045,Literature,Transfer and critique,The Glass Violin,1186,10,3,10
+6,6-R4-046,Literature,Observation and detail,The Unmarked Path,1196,10,3,10
+6,6-R4-047,Literature,Sequence and cause,A Window at Dawn,1184,10,3,10
+6,6-R4-048,Literature,Context vocabulary,The Last Blue Ribbon,1186,10,3,10
+6,6-R4-049,Science,Central idea,Sleep and the Class Survey,1175,10,3,10
+6,6-R4-050,Science,Evidence and warrants,Labels on the Cereal Box,1178,10,3,10
+6,6-R4-051,Science,Perspective and purpose,The Cloud Chamber Log,1166,10,3,10
+6,6-R4-052,Science,Claims and limits,The Medicine Study Headline,1196,10,3,10
+6,6-R4-053,Science,Data literacy,The Lake Temperature Series,1186,10,3,10
+6,6-R4-054,Science,Counterarguments,The Soil Microbe Exhibit,1182,10,3,10
+6,6-R4-055,Science,Synthesis across texts,Two Test Groups,1172,10,3,10
+6,6-R4-056,Science,Rhetoric and framing,The Bird Count Map,1190,10,3,10
+6,6-R4-057,Argument,Transfer and critique,The School Budget Choice,1189,10,3,10
+6,6-R4-058,Argument,Observation and detail,The Bicycle Repair Shop,1193,10,3,10
+6,6-R4-059,Argument,Sequence and cause,The Library Hours Proposal,1164,10,3,10
+6,6-R4-060,Argument,Context vocabulary,The Reusable Cup Debate,1192,10,3,10
+6,6-R4-061,Argument,Central idea,The Local Product Claim,1167,10,3,10
+6,6-R4-062,Argument,Evidence and warrants,The Garden Water Rule,1181,10,3,10
+6,6-R4-063,Argument,Perspective and purpose,Remote Learning Choice,1160,10,3,10
+6,6-R4-064,Argument,Claims and limits,The Repair or Replace Decision,1192,10,3,10
+7,7-R4-001,Ecology,Evidence and warrants,Creek After a Storm,1392,10,3,10
+7,7-R4-002,Ecology,Perspective and purpose,The Schoolyard Trees,1390,10,3,10
+7,7-R4-003,Ecology,Claims and limits,The Returning Bees,1389,10,3,10
+7,7-R4-004,Ecology,Data literacy,Wetland Walkway,1390,10,3,10
+7,7-R4-005,Ecology,Counterarguments,The Compost Trial,1395,10,3,10
+7,7-R4-006,Ecology,Synthesis across texts,City Night Sounds,1377,10,3,10
+7,7-R4-007,Ecology,Rhetoric and framing,The Fox Crossing,1376,10,3,10
+7,7-R4-008,Ecology,Transfer and critique,A Garden in Heat,1377,10,3,10
+7,7-R4-009,History,Observation and detail,The Missing Library Page,1399,10,3,10
+7,7-R4-010,History,Sequence and cause,A Bridge Remembered,1385,10,3,10
+7,7-R4-011,History,Context vocabulary,The Market Street Letter,1386,10,3,10
+7,7-R4-012,History,Central idea,Two Newspaper Reports,1388,10,3,10
+7,7-R4-013,History,Evidence and warrants,Maps of a Changing Harbor,1383,10,3,10
+7,7-R4-014,History,Perspective and purpose,The Pottery Fragments,1384,10,3,10
+7,7-R4-015,History,Claims and limits,The Assembly Petition,1367,10,3,10
+7,7-R4-016,History,Data literacy,Tracing a Family Route,1383,10,3,10
+7,7-R4-017,Engineering,Counterarguments,The Paper Water Filter,1397,10,3,10
+7,7-R4-018,Engineering,Synthesis across texts,Sunlight at the Bus Stop,1379,10,3,10
+7,7-R4-019,Engineering,Rhetoric and framing,The Wooden Span,1388,10,3,10
+7,7-R4-020,Engineering,Transfer and critique,Bicycle Lane Signals,1386,10,3,10
+7,7-R4-021,Engineering,Observation and detail,Flood Warning Board,1403,10,3,10
+7,7-R4-022,Engineering,Sequence and cause,The Quiet Classroom,1385,10,3,10
+7,7-R4-023,Engineering,Context vocabulary,Heat in a Lunch Box,1388,10,3,10
+7,7-R4-024,Engineering,Central idea,Wind Against the Tower,1372,10,3,10
+7,7-R4-025,Community,Evidence and warrants,The Shared Garden Plot,1362,10,3,10
+7,7-R4-026,Community,Perspective and purpose,The Lunch Line Survey,1378,10,3,10
+7,7-R4-027,Community,Claims and limits,The Park Bench Debate,1378,10,3,10
+7,7-R4-028,Community,Data literacy,The Recycling Signs,1372,10,3,10
+7,7-R4-029,Community,Counterarguments,A New Bus Route,1400,10,3,10
+7,7-R4-030,Community,Synthesis across texts,The Tutoring Circle,1351,10,3,10
+7,7-R4-031,Community,Rhetoric and framing,The Mural Proposal,1390,10,3,10
+7,7-R4-032,Community,Transfer and critique,The Emergency Kit Shelf,1387,10,3,10
+7,7-R4-033,Technology,Observation and detail,The School App Permission,1394,10,3,10
+7,7-R4-034,Technology,Sequence and cause,Search Result Order,1384,10,3,10
+7,7-R4-035,Technology,Context vocabulary,The Image Caption,1387,10,3,10
+7,7-R4-036,Technology,Central idea,Sensors in the Garden,1395,10,3,10
+7,7-R4-037,Technology,Evidence and warrants,The Rumor Screenshot,1395,10,3,10
+7,7-R4-038,Technology,Perspective and purpose,The Lost Draft,1384,10,3,10
+7,7-R4-039,Technology,Claims and limits,The Fairness Dashboard,1371,10,3,10
+7,7-R4-040,Technology,Data literacy,The Editable History Page,1406,10,3,10
+7,7-R4-041,Literature,Counterarguments,The Lighthouse Notebook,1392,10,3,10
+7,7-R4-042,Literature,Synthesis across texts,The Clockmaker's Door,1388,10,3,10
+7,7-R4-043,Literature,Rhetoric and framing,The Seed in Winter,1396,10,3,10
+7,7-R4-044,Literature,Transfer and critique,The Unsent Postcard,1378,10,3,10
+7,7-R4-045,Literature,Observation and detail,The Glass Violin,1385,10,3,10
+7,7-R4-046,Literature,Sequence and cause,The Unmarked Path,1396,10,3,10
+7,7-R4-047,Literature,Context vocabulary,A Window at Dawn,1381,10,3,10
+7,7-R4-048,Literature,Central idea,The Last Blue Ribbon,1385,10,3,10
+7,7-R4-049,Science,Evidence and warrants,Sleep and the Class Survey,1376,10,3,10
+7,7-R4-050,Science,Perspective and purpose,Labels on the Cereal Box,1376,10,3,10
+7,7-R4-051,Science,Claims and limits,The Cloud Chamber Log,1365,10,3,10
+7,7-R4-052,Science,Data literacy,The Medicine Study Headline,1396,10,3,10
+7,7-R4-053,Science,Counterarguments,The Lake Temperature Series,1388,10,3,10
+7,7-R4-054,Science,Synthesis across texts,The Soil Microbe Exhibit,1381,10,3,10
+7,7-R4-055,Science,Rhetoric and framing,Two Test Groups,1372,10,3,10
+7,7-R4-056,Science,Transfer and critique,The Bird Count Map,1391,10,3,10
+7,7-R4-057,Argument,Observation and detail,The School Budget Choice,1389,10,3,10
+7,7-R4-058,Argument,Sequence and cause,The Bicycle Repair Shop,1391,10,3,10
+7,7-R4-059,Argument,Context vocabulary,The Library Hours Proposal,1364,10,3,10
+7,7-R4-060,Argument,Central idea,The Reusable Cup Debate,1394,10,3,10
+7,7-R4-061,Argument,Evidence and warrants,The Local Product Claim,1364,10,3,10
+7,7-R4-062,Argument,Perspective and purpose,The Garden Water Rule,1380,10,3,10
+7,7-R4-063,Argument,Claims and limits,Remote Learning Choice,1358,10,3,10
+7,7-R4-064,Argument,Data literacy,The Repair or Replace Decision,1390,10,3,10
+8,8-R4-001,Ecology,Evidence and warrants,Creek After a Storm,1506,10,3,12
+8,8-R4-002,Ecology,Perspective and purpose,The Schoolyard Trees,1500,10,3,12
+8,8-R4-003,Ecology,Claims and limits,The Returning Bees,1499,10,3,12
+8,8-R4-004,Ecology,Data literacy,Wetland Walkway,1502,10,3,12
+8,8-R4-005,Ecology,Counterarguments,The Compost Trial,1508,10,3,12
+8,8-R4-006,Ecology,Synthesis across texts,City Night Sounds,1487,10,3,12
+8,8-R4-007,Ecology,Rhetoric and framing,The Fox Crossing,1488,10,3,12
+8,8-R4-008,Ecology,Transfer and critique,A Garden in Heat,1488,10,3,12
+8,8-R4-009,History,Observation and detail,The Missing Library Page,1510,10,3,12
+8,8-R4-010,History,Sequence and cause,A Bridge Remembered,1498,10,3,12
+8,8-R4-011,History,Context vocabulary,The Market Street Letter,1496,10,3,12
+8,8-R4-012,History,Central idea,Two Newspaper Reports,1500,10,3,12
+8,8-R4-013,History,Evidence and warrants,Maps of a Changing Harbor,1494,10,3,12
+8,8-R4-014,History,Perspective and purpose,The Pottery Fragments,1495,10,3,12
+8,8-R4-015,History,Claims and limits,The Assembly Petition,1479,10,3,12
+8,8-R4-016,History,Data literacy,Tracing a Family Route,1498,10,3,12
+8,8-R4-017,Engineering,Counterarguments,The Paper Water Filter,1509,10,3,12
+8,8-R4-018,Engineering,Synthesis across texts,Sunlight at the Bus Stop,1489,10,3,12
+8,8-R4-019,Engineering,Rhetoric and framing,The Wooden Span,1500,10,3,12
+8,8-R4-020,Engineering,Transfer and critique,Bicycle Lane Signals,1497,10,3,12
+8,8-R4-021,Engineering,Observation and detail,Flood Warning Board,1515,10,3,12
+8,8-R4-022,Engineering,Sequence and cause,The Quiet Classroom,1498,10,3,12
+8,8-R4-023,Engineering,Context vocabulary,Heat in a Lunch Box,1500,10,3,12
+8,8-R4-024,Engineering,Central idea,Wind Against the Tower,1483,10,3,12
+8,8-R4-025,Community,Evidence and warrants,The Shared Garden Plot,1473,10,3,12
+8,8-R4-026,Community,Perspective and purpose,The Lunch Line Survey,1492,10,3,12
+8,8-R4-027,Community,Claims and limits,The Park Bench Debate,1490,10,3,12
+8,8-R4-028,Community,Data literacy,The Recycling Signs,1482,10,3,12
+8,8-R4-029,Community,Counterarguments,A New Bus Route,1512,10,3,12
+8,8-R4-030,Community,Synthesis across texts,The Tutoring Circle,1461,10,3,12
+8,8-R4-031,Community,Rhetoric and framing,The Mural Proposal,1500,10,3,12
+8,8-R4-032,Community,Transfer and critique,The Emergency Kit Shelf,1499,10,3,12
+8,8-R4-033,Technology,Observation and detail,The School App Permission,1505,10,3,12
+8,8-R4-034,Technology,Sequence and cause,Search Result Order,1495,10,3,12
+8,8-R4-035,Technology,Context vocabulary,The Image Caption,1500,10,3,12
+8,8-R4-036,Technology,Central idea,Sensors in the Garden,1508,10,3,12
+8,8-R4-037,Technology,Evidence and warrants,The Rumor Screenshot,1506,10,3,12
+8,8-R4-038,Technology,Perspective and purpose,The Lost Draft,1496,10,3,12
+8,8-R4-039,Technology,Claims and limits,The Fairness Dashboard,1484,10,3,12
+8,8-R4-040,Technology,Data literacy,The Editable History Page,1519,10,3,12
+8,8-R4-041,Literature,Counterarguments,The Lighthouse Notebook,1504,10,3,12
+8,8-R4-042,Literature,Synthesis across texts,The Clockmaker's Door,1502,10,3,12
+8,8-R4-043,Literature,Rhetoric and framing,The Seed in Winter,1510,10,3,12
+8,8-R4-044,Literature,Transfer and critique,The Unsent Postcard,1491,10,3,12
+8,8-R4-045,Literature,Observation and detail,The Glass Violin,1497,10,3,12
+8,8-R4-046,Literature,Sequence and cause,The Unmarked Path,1509,10,3,12
+8,8-R4-047,Literature,Context vocabulary,A Window at Dawn,1494,10,3,12
+8,8-R4-048,Literature,Central idea,The Last Blue Ribbon,1498,10,3,12
+8,8-R4-049,Science,Evidence and warrants,Sleep and the Class Survey,1488,10,3,12
+8,8-R4-050,Science,Perspective and purpose,Labels on the Cereal Box,1487,10,3,12
+8,8-R4-051,Science,Claims and limits,The Cloud Chamber Log,1476,10,3,12
+8,8-R4-052,Science,Data literacy,The Medicine Study Headline,1507,10,3,12
+8,8-R4-053,Science,Counterarguments,The Lake Temperature Series,1500,10,3,12
+8,8-R4-054,Science,Synthesis across texts,The Soil Microbe Exhibit,1492,10,3,12
+8,8-R4-055,Science,Rhetoric and framing,Two Test Groups,1485,10,3,12
+8,8-R4-056,Science,Transfer and critique,The Bird Count Map,1503,10,3,12
+8,8-R4-057,Argument,Observation and detail,The School Budget Choice,1502,10,3,12
+8,8-R4-058,Argument,Sequence and cause,The Bicycle Repair Shop,1502,10,3,12
+8,8-R4-059,Argument,Context vocabulary,The Library Hours Proposal,1476,10,3,12
+8,8-R4-060,Argument,Central idea,The Reusable Cup Debate,1506,10,3,12
+8,8-R4-061,Argument,Evidence and warrants,The Local Product Claim,1475,10,3,12
+8,8-R4-062,Argument,Perspective and purpose,The Garden Water Rule,1490,10,3,12
+8,8-R4-063,Argument,Claims and limits,Remote Learning Choice,1469,10,3,12
+8,8-R4-064,Argument,Data literacy,The Repair or Replace Decision,1503,10,3,12
+9,9-R4-001,Ecology,Perspective and purpose,Creek After a Storm,1559,10,3,12
+9,9-R4-002,Ecology,Claims and limits,The Schoolyard Trees,1553,10,3,12
+9,9-R4-003,Ecology,Data literacy,The Returning Bees,1552,10,3,12
+9,9-R4-004,Ecology,Counterarguments,Wetland Walkway,1555,10,3,12
+9,9-R4-005,Ecology,Synthesis across texts,The Compost Trial,1561,10,3,12
+9,9-R4-006,Ecology,Rhetoric and framing,City Night Sounds,1540,10,3,12
+9,9-R4-007,Ecology,Transfer and critique,The Fox Crossing,1541,10,3,12
+9,9-R4-008,Ecology,Observation and detail,A Garden in Heat,1541,10,3,12
+9,9-R4-009,History,Sequence and cause,The Missing Library Page,1563,10,3,12
+9,9-R4-010,History,Context vocabulary,A Bridge Remembered,1551,10,3,12
+9,9-R4-011,History,Central idea,The Market Street Letter,1549,10,3,12
+9,9-R4-012,History,Evidence and warrants,Two Newspaper Reports,1553,10,3,12
+9,9-R4-013,History,Perspective and purpose,Maps of a Changing Harbor,1547,10,3,12
+9,9-R4-014,History,Claims and limits,The Pottery Fragments,1548,10,3,12
+9,9-R4-015,History,Data literacy,The Assembly Petition,1531,10,3,12
+9,9-R4-016,History,Counterarguments,Tracing a Family Route,1551,10,3,12
+9,9-R4-017,Engineering,Synthesis across texts,The Paper Water Filter,1562,10,3,12
+9,9-R4-018,Engineering,Rhetoric and framing,Sunlight at the Bus Stop,1542,10,3,12
+9,9-R4-019,Engineering,Transfer and critique,The Wooden Span,1553,10,3,12
+9,9-R4-020,Engineering,Observation and detail,Bicycle Lane Signals,1550,10,3,12
+9,9-R4-021,Engineering,Sequence and cause,Flood Warning Board,1568,10,3,12
+9,9-R4-022,Engineering,Context vocabulary,The Quiet Classroom,1551,10,3,12
+9,9-R4-023,Engineering,Central idea,Heat in a Lunch Box,1553,10,3,12
+9,9-R4-024,Engineering,Evidence and warrants,Wind Against the Tower,1536,10,3,12
+9,9-R4-025,Community,Perspective and purpose,The Shared Garden Plot,1526,10,3,12
+9,9-R4-026,Community,Claims and limits,The Lunch Line Survey,1545,10,3,12
+9,9-R4-027,Community,Data literacy,The Park Bench Debate,1544,10,3,12
+9,9-R4-028,Community,Counterarguments,The Recycling Signs,1535,10,3,12
+9,9-R4-029,Community,Synthesis across texts,A New Bus Route,1565,10,3,12
+9,9-R4-030,Community,Rhetoric and framing,The Tutoring Circle,1514,10,3,12
+9,9-R4-031,Community,Transfer and critique,The Mural Proposal,1553,10,3,12
+9,9-R4-032,Community,Observation and detail,The Emergency Kit Shelf,1552,10,3,12
+9,9-R4-033,Technology,Sequence and cause,The School App Permission,1558,10,3,12
+9,9-R4-034,Technology,Context vocabulary,Search Result Order,1548,10,3,12
+9,9-R4-035,Technology,Central idea,The Image Caption,1554,10,3,12
+9,9-R4-036,Technology,Evidence and warrants,Sensors in the Garden,1561,10,3,12
+9,9-R4-037,Technology,Perspective and purpose,The Rumor Screenshot,1559,10,3,12
+9,9-R4-038,Technology,Claims and limits,The Lost Draft,1550,10,3,12
+9,9-R4-039,Technology,Data literacy,The Fairness Dashboard,1537,10,3,12
+9,9-R4-040,Technology,Counterarguments,The Editable History Page,1572,10,3,12
+9,9-R4-041,Literature,Synthesis across texts,The Lighthouse Notebook,1557,10,3,12
+9,9-R4-042,Literature,Rhetoric and framing,The Clockmaker's Door,1555,10,3,12
+9,9-R4-043,Literature,Transfer and critique,The Seed in Winter,1563,10,3,12
+9,9-R4-044,Literature,Observation and detail,The Unsent Postcard,1543,10,3,12
+9,9-R4-045,Literature,Sequence and cause,The Glass Violin,1550,10,3,12
+9,9-R4-046,Literature,Context vocabulary,The Unmarked Path,1562,10,3,12
+9,9-R4-047,Literature,Central idea,A Window at Dawn,1547,10,3,12
+9,9-R4-048,Literature,Evidence and warrants,The Last Blue Ribbon,1551,10,3,12
+9,9-R4-049,Science,Perspective and purpose,Sleep and the Class Survey,1541,10,3,12
+9,9-R4-050,Science,Claims and limits,Labels on the Cereal Box,1540,10,3,12
+9,9-R4-051,Science,Data literacy,The Cloud Chamber Log,1529,10,3,12
+9,9-R4-052,Science,Counterarguments,The Medicine Study Headline,1560,10,3,12
+9,9-R4-053,Science,Synthesis across texts,The Lake Temperature Series,1553,10,3,12
+9,9-R4-054,Science,Rhetoric and framing,The Soil Microbe Exhibit,1545,10,3,12
+9,9-R4-055,Science,Transfer and critique,Two Test Groups,1539,10,3,12
+9,9-R4-056,Science,Observation and detail,The Bird Count Map,1556,10,3,12
+9,9-R4-057,Argument,Sequence and cause,The School Budget Choice,1555,10,3,12
+9,9-R4-058,Argument,Context vocabulary,The Bicycle Repair Shop,1555,10,3,12
+9,9-R4-059,Argument,Central idea,The Library Hours Proposal,1529,10,3,12
+9,9-R4-060,Argument,Evidence and warrants,The Reusable Cup Debate,1559,10,3,12
+9,9-R4-061,Argument,Perspective and purpose,The Local Product Claim,1528,10,3,12
+9,9-R4-062,Argument,Claims and limits,The Garden Water Rule,1543,10,3,12
+9,9-R4-063,Argument,Data literacy,Remote Learning Choice,1522,10,3,12
+9,9-R4-064,Argument,Counterarguments,The Repair or Replace Decision,1556,10,3,12
+10,10-R4-001,Ecology,Perspective and purpose,Creek After a Storm,1559,10,3,12
+10,10-R4-002,Ecology,Claims and limits,The Schoolyard Trees,1553,10,3,12
+10,10-R4-003,Ecology,Data literacy,The Returning Bees,1552,10,3,12
+10,10-R4-004,Ecology,Counterarguments,Wetland Walkway,1555,10,3,12
+10,10-R4-005,Ecology,Synthesis across texts,The Compost Trial,1561,10,3,12
+10,10-R4-006,Ecology,Rhetoric and framing,City Night Sounds,1540,10,3,12
+10,10-R4-007,Ecology,Transfer and critique,The Fox Crossing,1541,10,3,12
+10,10-R4-008,Ecology,Observation and detail,A Garden in Heat,1541,10,3,12
+10,10-R4-009,History,Sequence and cause,The Missing Library Page,1563,10,3,12
+10,10-R4-010,History,Context vocabulary,A Bridge Remembered,1551,10,3,12
+10,10-R4-011,History,Central idea,The Market Street Letter,1549,10,3,12
+10,10-R4-012,History,Evidence and warrants,Two Newspaper Reports,1553,10,3,12
+10,10-R4-013,History,Perspective and purpose,Maps of a Changing Harbor,1547,10,3,12
+10,10-R4-014,History,Claims and limits,The Pottery Fragments,1548,10,3,12
+10,10-R4-015,History,Data literacy,The Assembly Petition,1531,10,3,12
+10,10-R4-016,History,Counterarguments,Tracing a Family Route,1551,10,3,12
+10,10-R4-017,Engineering,Synthesis across texts,The Paper Water Filter,1562,10,3,12
+10,10-R4-018,Engineering,Rhetoric and framing,Sunlight at the Bus Stop,1542,10,3,12
+10,10-R4-019,Engineering,Transfer and critique,The Wooden Span,1553,10,3,12
+10,10-R4-020,Engineering,Observation and detail,Bicycle Lane Signals,1550,10,3,12
+10,10-R4-021,Engineering,Sequence and cause,Flood Warning Board,1568,10,3,12
+10,10-R4-022,Engineering,Context vocabulary,The Quiet Classroom,1551,10,3,12
+10,10-R4-023,Engineering,Central idea,Heat in a Lunch Box,1553,10,3,12
+10,10-R4-024,Engineering,Evidence and warrants,Wind Against the Tower,1536,10,3,12
+10,10-R4-025,Community,Perspective and purpose,The Shared Garden Plot,1526,10,3,12
+10,10-R4-026,Community,Claims and limits,The Lunch Line Survey,1545,10,3,12
+10,10-R4-027,Community,Data literacy,The Park Bench Debate,1544,10,3,12
+10,10-R4-028,Community,Counterarguments,The Recycling Signs,1535,10,3,12
+10,10-R4-029,Community,Synthesis across texts,A New Bus Route,1565,10,3,12
+10,10-R4-030,Community,Rhetoric and framing,The Tutoring Circle,1514,10,3,12
+10,10-R4-031,Community,Transfer and critique,The Mural Proposal,1553,10,3,12
+10,10-R4-032,Community,Observation and detail,The Emergency Kit Shelf,1552,10,3,12
+10,10-R4-033,Technology,Sequence and cause,The School App Permission,1558,10,3,12
+10,10-R4-034,Technology,Context vocabulary,Search Result Order,1548,10,3,12
+10,10-R4-035,Technology,Central idea,The Image Caption,1554,10,3,12
+10,10-R4-036,Technology,Evidence and warrants,Sensors in the Garden,1561,10,3,12
+10,10-R4-037,Technology,Perspective and purpose,The Rumor Screenshot,1559,10,3,12
+10,10-R4-038,Technology,Claims and limits,The Lost Draft,1550,10,3,12
+10,10-R4-039,Technology,Data literacy,The Fairness Dashboard,1537,10,3,12
+10,10-R4-040,Technology,Counterarguments,The Editable History Page,1572,10,3,12
+10,10-R4-041,Literature,Synthesis across texts,The Lighthouse Notebook,1557,10,3,12
+10,10-R4-042,Literature,Rhetoric and framing,The Clockmaker's Door,1555,10,3,12
+10,10-R4-043,Literature,Transfer and critique,The Seed in Winter,1563,10,3,12
+10,10-R4-044,Literature,Observation and detail,The Unsent Postcard,1543,10,3,12
+10,10-R4-045,Literature,Sequence and cause,The Glass Violin,1550,10,3,12
+10,10-R4-046,Literature,Context vocabulary,The Unmarked Path,1562,10,3,12
+10,10-R4-047,Literature,Central idea,A Window at Dawn,1547,10,3,12
+10,10-R4-048,Literature,Evidence and warrants,The Last Blue Ribbon,1551,10,3,12
+10,10-R4-049,Science,Perspective and purpose,Sleep and the Class Survey,1541,10,3,12
+10,10-R4-050,Science,Claims and limits,Labels on the Cereal Box,1540,10,3,12
+10,10-R4-051,Science,Data literacy,The Cloud Chamber Log,1529,10,3,12
+10,10-R4-052,Science,Counterarguments,The Medicine Study Headline,1560,10,3,12
+10,10-R4-053,Science,Synthesis across texts,The Lake Temperature Series,1553,10,3,12
+10,10-R4-054,Science,Rhetoric and framing,The Soil Microbe Exhibit,1545,10,3,12
+10,10-R4-055,Science,Transfer and critique,Two Test Groups,1539,10,3,12
+10,10-R4-056,Science,Observation and detail,The Bird Count Map,1556,10,3,12
+10,10-R4-057,Argument,Sequence and cause,The School Budget Choice,1555,10,3,12
+10,10-R4-058,Argument,Context vocabulary,The Bicycle Repair Shop,1555,10,3,12
+10,10-R4-059,Argument,Central idea,The Library Hours Proposal,1529,10,3,12
+10,10-R4-060,Argument,Evidence and warrants,The Reusable Cup Debate,1559,10,3,12
+10,10-R4-061,Argument,Perspective and purpose,The Local Product Claim,1528,10,3,12
+10,10-R4-062,Argument,Claims and limits,The Garden Water Rule,1543,10,3,12
+10,10-R4-063,Argument,Data literacy,Remote Learning Choice,1522,10,3,12
+10,10-R4-064,Argument,Counterarguments,The Repair or Replace Decision,1556,10,3,12
+11,11-R4-001,Ecology,Claims and limits,Creek After a Storm,1617,10,3,12
+11,11-R4-002,Ecology,Data literacy,The Schoolyard Trees,1611,10,3,12
+11,11-R4-003,Ecology,Counterarguments,The Returning Bees,1610,10,3,12
+11,11-R4-004,Ecology,Synthesis across texts,Wetland Walkway,1613,10,3,12
+11,11-R4-005,Ecology,Rhetoric and framing,The Compost Trial,1619,10,3,12
+11,11-R4-006,Ecology,Transfer and critique,City Night Sounds,1598,10,3,12
+11,11-R4-007,Ecology,Observation and detail,The Fox Crossing,1599,10,3,12
+11,11-R4-008,Ecology,Sequence and cause,A Garden in Heat,1599,10,3,12
+11,11-R4-009,History,Context vocabulary,The Missing Library Page,1621,10,3,12
+11,11-R4-010,History,Central idea,A Bridge Remembered,1609,10,3,12
+11,11-R4-011,History,Evidence and warrants,The Market Street Letter,1607,10,3,12
+11,11-R4-012,History,Perspective and purpose,Two Newspaper Reports,1611,10,3,12
+11,11-R4-013,History,Claims and limits,Maps of a Changing Harbor,1605,10,3,12
+11,11-R4-014,History,Data literacy,The Pottery Fragments,1606,10,3,12
+11,11-R4-015,History,Counterarguments,The Assembly Petition,1589,10,3,12
+11,11-R4-016,History,Synthesis across texts,Tracing a Family Route,1609,10,3,12
+11,11-R4-017,Engineering,Rhetoric and framing,The Paper Water Filter,1620,10,3,12
+11,11-R4-018,Engineering,Transfer and critique,Sunlight at the Bus Stop,1600,10,3,12
+11,11-R4-019,Engineering,Observation and detail,The Wooden Span,1611,10,3,12
+11,11-R4-020,Engineering,Sequence and cause,Bicycle Lane Signals,1608,10,3,12
+11,11-R4-021,Engineering,Context vocabulary,Flood Warning Board,1626,10,3,12
+11,11-R4-022,Engineering,Central idea,The Quiet Classroom,1609,10,3,12
+11,11-R4-023,Engineering,Evidence and warrants,Heat in a Lunch Box,1611,10,3,12
+11,11-R4-024,Engineering,Perspective and purpose,Wind Against the Tower,1594,10,3,12
+11,11-R4-025,Community,Claims and limits,The Shared Garden Plot,1584,10,3,12
+11,11-R4-026,Community,Data literacy,The Lunch Line Survey,1603,10,3,12
+11,11-R4-027,Community,Counterarguments,The Park Bench Debate,1602,10,3,12
+11,11-R4-028,Community,Synthesis across texts,The Recycling Signs,1593,10,3,12
+11,11-R4-029,Community,Rhetoric and framing,A New Bus Route,1623,10,3,12
+11,11-R4-030,Community,Transfer and critique,The Tutoring Circle,1572,10,3,12
+11,11-R4-031,Community,Observation and detail,The Mural Proposal,1611,10,3,12
+11,11-R4-032,Community,Sequence and cause,The Emergency Kit Shelf,1610,10,3,12
+11,11-R4-033,Technology,Context vocabulary,The School App Permission,1616,10,3,12
+11,11-R4-034,Technology,Central idea,Search Result Order,1606,10,3,12
+11,11-R4-035,Technology,Evidence and warrants,The Image Caption,1612,10,3,12
+11,11-R4-036,Technology,Perspective and purpose,Sensors in the Garden,1619,10,3,12
+11,11-R4-037,Technology,Claims and limits,The Rumor Screenshot,1617,10,3,12
+11,11-R4-038,Technology,Data literacy,The Lost Draft,1608,10,3,12
+11,11-R4-039,Technology,Counterarguments,The Fairness Dashboard,1595,10,3,12
+11,11-R4-040,Technology,Synthesis across texts,The Editable History Page,1630,10,3,12
+11,11-R4-041,Literature,Rhetoric and framing,The Lighthouse Notebook,1615,10,3,12
+11,11-R4-042,Literature,Transfer and critique,The Clockmaker's Door,1613,10,3,12
+11,11-R4-043,Literature,Observation and detail,The Seed in Winter,1621,10,3,12
+11,11-R4-044,Literature,Sequence and cause,The Unsent Postcard,1601,10,3,12
+11,11-R4-045,Literature,Context vocabulary,The Glass Violin,1608,10,3,12
+11,11-R4-046,Literature,Central idea,The Unmarked Path,1620,10,3,12
+11,11-R4-047,Literature,Evidence and warrants,A Window at Dawn,1605,10,3,12
+11,11-R4-048,Literature,Perspective and purpose,The Last Blue Ribbon,1609,10,3,12
+11,11-R4-049,Science,Claims and limits,Sleep and the Class Survey,1599,10,3,12
+11,11-R4-050,Science,Data literacy,Labels on the Cereal Box,1598,10,3,12
+11,11-R4-051,Science,Counterarguments,The Cloud Chamber Log,1587,10,3,12
+11,11-R4-052,Science,Synthesis across texts,The Medicine Study Headline,1618,10,3,12
+11,11-R4-053,Science,Rhetoric and framing,The Lake Temperature Series,1611,10,3,12
+11,11-R4-054,Science,Transfer and critique,The Soil Microbe Exhibit,1603,10,3,12
+11,11-R4-055,Science,Observation and detail,Two Test Groups,1597,10,3,12
+11,11-R4-056,Science,Sequence and cause,The Bird Count Map,1614,10,3,12
+11,11-R4-057,Argument,Context vocabulary,The School Budget Choice,1613,10,3,12
+11,11-R4-058,Argument,Central idea,The Bicycle Repair Shop,1613,10,3,12
+11,11-R4-059,Argument,Evidence and warrants,The Library Hours Proposal,1587,10,3,12
+11,11-R4-060,Argument,Perspective and purpose,The Reusable Cup Debate,1617,10,3,12
+11,11-R4-061,Argument,Claims and limits,The Local Product Claim,1586,10,3,12
+11,11-R4-062,Argument,Data literacy,The Garden Water Rule,1601,10,3,12
+11,11-R4-063,Argument,Counterarguments,Remote Learning Choice,1580,10,3,12
+11,11-R4-064,Argument,Synthesis across texts,The Repair or Replace Decision,1614,10,3,12
+12,12-R4-001,Ecology,Claims and limits,Creek After a Storm,1617,10,3,12
+12,12-R4-002,Ecology,Data literacy,The Schoolyard Trees,1611,10,3,12
+12,12-R4-003,Ecology,Counterarguments,The Returning Bees,1610,10,3,12
+12,12-R4-004,Ecology,Synthesis across texts,Wetland Walkway,1613,10,3,12
+12,12-R4-005,Ecology,Rhetoric and framing,The Compost Trial,1619,10,3,12
+12,12-R4-006,Ecology,Transfer and critique,City Night Sounds,1598,10,3,12
+12,12-R4-007,Ecology,Observation and detail,The Fox Crossing,1599,10,3,12
+12,12-R4-008,Ecology,Sequence and cause,A Garden in Heat,1599,10,3,12
+12,12-R4-009,History,Context vocabulary,The Missing Library Page,1621,10,3,12
+12,12-R4-010,History,Central idea,A Bridge Remembered,1609,10,3,12
+12,12-R4-011,History,Evidence and warrants,The Market Street Letter,1607,10,3,12
+12,12-R4-012,History,Perspective and purpose,Two Newspaper Reports,1611,10,3,12
+12,12-R4-013,History,Claims and limits,Maps of a Changing Harbor,1605,10,3,12
+12,12-R4-014,History,Data literacy,The Pottery Fragments,1606,10,3,12
+12,12-R4-015,History,Counterarguments,The Assembly Petition,1589,10,3,12
+12,12-R4-016,History,Synthesis across texts,Tracing a Family Route,1609,10,3,12
+12,12-R4-017,Engineering,Rhetoric and framing,The Paper Water Filter,1620,10,3,12
+12,12-R4-018,Engineering,Transfer and critique,Sunlight at the Bus Stop,1600,10,3,12
+12,12-R4-019,Engineering,Observation and detail,The Wooden Span,1611,10,3,12
+12,12-R4-020,Engineering,Sequence and cause,Bicycle Lane Signals,1608,10,3,12
+12,12-R4-021,Engineering,Context vocabulary,Flood Warning Board,1626,10,3,12
+12,12-R4-022,Engineering,Central idea,The Quiet Classroom,1609,10,3,12
+12,12-R4-023,Engineering,Evidence and warrants,Heat in a Lunch Box,1611,10,3,12
+12,12-R4-024,Engineering,Perspective and purpose,Wind Against the Tower,1594,10,3,12
+12,12-R4-025,Community,Claims and limits,The Shared Garden Plot,1584,10,3,12
+12,12-R4-026,Community,Data literacy,The Lunch Line Survey,1603,10,3,12
+12,12-R4-027,Community,Counterarguments,The Park Bench Debate,1602,10,3,12
+12,12-R4-028,Community,Synthesis across texts,The Recycling Signs,1593,10,3,12
+12,12-R4-029,Community,Rhetoric and framing,A New Bus Route,1623,10,3,12
+12,12-R4-030,Community,Transfer and critique,The Tutoring Circle,1572,10,3,12
+12,12-R4-031,Community,Observation and detail,The Mural Proposal,1611,10,3,12
+12,12-R4-032,Community,Sequence and cause,The Emergency Kit Shelf,1610,10,3,12
+12,12-R4-033,Technology,Context vocabulary,The School App Permission,1616,10,3,12
+12,12-R4-034,Technology,Central idea,Search Result Order,1606,10,3,12
+12,12-R4-035,Technology,Evidence and warrants,The Image Caption,1612,10,3,12
+12,12-R4-036,Technology,Perspective and purpose,Sensors in the Garden,1619,10,3,12
+12,12-R4-037,Technology,Claims and limits,The Rumor Screenshot,1617,10,3,12
+12,12-R4-038,Technology,Data literacy,The Lost Draft,1608,10,3,12
+12,12-R4-039,Technology,Counterarguments,The Fairness Dashboard,1595,10,3,12
+12,12-R4-040,Technology,Synthesis across texts,The Editable History Page,1630,10,3,12
+12,12-R4-041,Literature,Rhetoric and framing,The Lighthouse Notebook,1615,10,3,12
+12,12-R4-042,Literature,Transfer and critique,The Clockmaker's Door,1613,10,3,12
+12,12-R4-043,Literature,Observation and detail,The Seed in Winter,1621,10,3,12
+12,12-R4-044,Literature,Sequence and cause,The Unsent Postcard,1601,10,3,12
+12,12-R4-045,Literature,Context vocabulary,The Glass Violin,1608,10,3,12
+12,12-R4-046,Literature,Central idea,The Unmarked Path,1620,10,3,12
+12,12-R4-047,Literature,Evidence and warrants,A Window at Dawn,1605,10,3,12
+12,12-R4-048,Literature,Perspective and purpose,The Last Blue Ribbon,1609,10,3,12
+12,12-R4-049,Science,Claims and limits,Sleep and the Class Survey,1599,10,3,12
+12,12-R4-050,Science,Data literacy,Labels on the Cereal Box,1598,10,3,12
+12,12-R4-051,Science,Counterarguments,The Cloud Chamber Log,1587,10,3,12
+12,12-R4-052,Science,Synthesis across texts,The Medicine Study Headline,1618,10,3,12
+12,12-R4-053,Science,Rhetoric and framing,The Lake Temperature Series,1611,10,3,12
+12,12-R4-054,Science,Transfer and critique,The Soil Microbe Exhibit,1603,10,3,12
+12,12-R4-055,Science,Observation and detail,Two Test Groups,1597,10,3,12
+12,12-R4-056,Science,Sequence and cause,The Bird Count Map,1614,10,3,12
+12,12-R4-057,Argument,Context vocabulary,The School Budget Choice,1613,10,3,12
+12,12-R4-058,Argument,Central idea,The Bicycle Repair Shop,1613,10,3,12
+12,12-R4-059,Argument,Evidence and warrants,The Library Hours Proposal,1587,10,3,12
+12,12-R4-060,Argument,Perspective and purpose,The Reusable Cup Debate,1617,10,3,12
+12,12-R4-061,Argument,Claims and limits,The Local Product Claim,1586,10,3,12
+12,12-R4-062,Argument,Data literacy,The Garden Water Rule,1601,10,3,12
+12,12-R4-063,Argument,Counterarguments,Remote Learning Choice,1580,10,3,12
+12,12-R4-064,Argument,Synthesis across texts,The Repair or Replace Decision,1614,10,3,12
+C1,C1-R4-001,Ecology,Data literacy,Creek After a Storm,1686,10,3,12
+C1,C1-R4-002,Ecology,Counterarguments,The Schoolyard Trees,1678,10,3,12
+C1,C1-R4-003,Ecology,Synthesis across texts,The Returning Bees,1675,10,3,12
+C1,C1-R4-004,Ecology,Rhetoric and framing,Wetland Walkway,1681,10,3,12
+C1,C1-R4-005,Ecology,Transfer and critique,The Compost Trial,1686,10,3,12
+C1,C1-R4-006,Ecology,Observation and detail,City Night Sounds,1665,10,3,12
+C1,C1-R4-007,Ecology,Sequence and cause,The Fox Crossing,1665,10,3,12
+C1,C1-R4-008,Ecology,Context vocabulary,A Garden in Heat,1666,10,3,12
+C1,C1-R4-009,History,Central idea,The Missing Library Page,1689,10,3,12
+C1,C1-R4-010,History,Evidence and warrants,A Bridge Remembered,1676,10,3,12
+C1,C1-R4-011,History,Perspective and purpose,The Market Street Letter,1674,10,3,12
+C1,C1-R4-012,History,Claims and limits,Two Newspaper Reports,1676,10,3,12
+C1,C1-R4-013,History,Data literacy,Maps of a Changing Harbor,1673,10,3,12
+C1,C1-R4-014,History,Counterarguments,The Pottery Fragments,1670,10,3,12
+C1,C1-R4-015,History,Synthesis across texts,The Assembly Petition,1655,10,3,12
+C1,C1-R4-016,History,Rhetoric and framing,Tracing a Family Route,1675,10,3,12
+C1,C1-R4-017,Engineering,Transfer and critique,The Paper Water Filter,1689,10,3,12
+C1,C1-R4-018,Engineering,Observation and detail,Sunlight at the Bus Stop,1668,10,3,12
+C1,C1-R4-019,Engineering,Sequence and cause,The Wooden Span,1679,10,3,12
+C1,C1-R4-020,Engineering,Context vocabulary,Bicycle Lane Signals,1676,10,3,12
+C1,C1-R4-021,Engineering,Central idea,Flood Warning Board,1695,10,3,12
+C1,C1-R4-022,Engineering,Evidence and warrants,The Quiet Classroom,1673,10,3,12
+C1,C1-R4-023,Engineering,Perspective and purpose,Heat in a Lunch Box,1679,10,3,12
+C1,C1-R4-024,Engineering,Claims and limits,Wind Against the Tower,1661,10,3,12
+C1,C1-R4-025,Community,Data literacy,The Shared Garden Plot,1651,10,3,12
+C1,C1-R4-026,Community,Counterarguments,The Lunch Line Survey,1670,10,3,12
+C1,C1-R4-027,Community,Synthesis across texts,The Park Bench Debate,1669,10,3,12
+C1,C1-R4-028,Community,Rhetoric and framing,The Recycling Signs,1658,10,3,12
+C1,C1-R4-029,Community,Transfer and critique,A New Bus Route,1691,10,3,12
+C1,C1-R4-030,Community,Observation and detail,The Tutoring Circle,1634,10,3,12
+C1,C1-R4-031,Community,Sequence and cause,The Mural Proposal,1673,10,3,12
+C1,C1-R4-032,Community,Context vocabulary,The Emergency Kit Shelf,1677,10,3,12
+C1,C1-R4-033,Technology,Central idea,The School App Permission,1683,10,3,12
+C1,C1-R4-034,Technology,Evidence and warrants,Search Result Order,1674,10,3,12
+C1,C1-R4-035,Technology,Perspective and purpose,The Image Caption,1678,10,3,12
+C1,C1-R4-036,Technology,Claims and limits,Sensors in the Garden,1690,10,3,12
+C1,C1-R4-037,Technology,Data literacy,The Rumor Screenshot,1684,10,3,12
+C1,C1-R4-038,Technology,Counterarguments,The Lost Draft,1673,10,3,12
+C1,C1-R4-039,Technology,Synthesis across texts,The Fairness Dashboard,1660,10,3,12
+C1,C1-R4-040,Technology,Rhetoric and framing,The Editable History Page,1699,10,3,12
+C1,C1-R4-041,Literature,Transfer and critique,The Lighthouse Notebook,1685,10,3,12
+C1,C1-R4-042,Literature,Observation and detail,The Clockmaker's Door,1680,10,3,12
+C1,C1-R4-043,Literature,Sequence and cause,The Seed in Winter,1690,10,3,12
+C1,C1-R4-044,Literature,Context vocabulary,The Unsent Postcard,1671,10,3,12
+C1,C1-R4-045,Literature,Central idea,The Glass Violin,1673,10,3,12
+C1,C1-R4-046,Literature,Evidence and warrants,The Unmarked Path,1690,10,3,12
+C1,C1-R4-047,Literature,Perspective and purpose,A Window at Dawn,1672,10,3,12
+C1,C1-R4-048,Literature,Claims and limits,The Last Blue Ribbon,1676,10,3,12
+C1,C1-R4-049,Science,Data literacy,Sleep and the Class Survey,1668,10,3,12
+C1,C1-R4-050,Science,Counterarguments,Labels on the Cereal Box,1664,10,3,12
+C1,C1-R4-051,Science,Synthesis across texts,The Cloud Chamber Log,1652,10,3,12
+C1,C1-R4-052,Science,Rhetoric and framing,The Medicine Study Headline,1686,10,3,12
+C1,C1-R4-053,Science,Transfer and critique,The Lake Temperature Series,1678,10,3,12
+C1,C1-R4-054,Science,Observation and detail,The Soil Microbe Exhibit,1669,10,3,12
+C1,C1-R4-055,Science,Sequence and cause,Two Test Groups,1664,10,3,12
+C1,C1-R4-056,Science,Context vocabulary,The Bird Count Map,1684,10,3,12
+C1,C1-R4-057,Argument,Central idea,The School Budget Choice,1677,10,3,12
+C1,C1-R4-058,Argument,Evidence and warrants,The Bicycle Repair Shop,1680,10,3,12
+C1,C1-R4-059,Argument,Perspective and purpose,The Library Hours Proposal,1650,10,3,12
+C1,C1-R4-060,Argument,Claims and limits,The Reusable Cup Debate,1683,10,3,12
+C1,C1-R4-061,Argument,Data literacy,The Local Product Claim,1649,10,3,12
+C1,C1-R4-062,Argument,Counterarguments,The Garden Water Rule,1668,10,3,12
+C1,C1-R4-063,Argument,Synthesis across texts,Remote Learning Choice,1644,10,3,12
+C1,C1-R4-064,Argument,Rhetoric and framing,The Repair or Replace Decision,1679,10,3,12
+C2,C2-R4-001,Ecology,Data literacy,Creek After a Storm,1686,10,3,12
+C2,C2-R4-002,Ecology,Counterarguments,The Schoolyard Trees,1678,10,3,12
+C2,C2-R4-003,Ecology,Synthesis across texts,The Returning Bees,1675,10,3,12
+C2,C2-R4-004,Ecology,Rhetoric and framing,Wetland Walkway,1681,10,3,12
+C2,C2-R4-005,Ecology,Transfer and critique,The Compost Trial,1686,10,3,12
+C2,C2-R4-006,Ecology,Observation and detail,City Night Sounds,1665,10,3,12
+C2,C2-R4-007,Ecology,Sequence and cause,The Fox Crossing,1665,10,3,12
+C2,C2-R4-008,Ecology,Context vocabulary,A Garden in Heat,1666,10,3,12
+C2,C2-R4-009,History,Central idea,The Missing Library Page,1689,10,3,12
+C2,C2-R4-010,History,Evidence and warrants,A Bridge Remembered,1676,10,3,12
+C2,C2-R4-011,History,Perspective and purpose,The Market Street Letter,1674,10,3,12
+C2,C2-R4-012,History,Claims and limits,Two Newspaper Reports,1676,10,3,12
+C2,C2-R4-013,History,Data literacy,Maps of a Changing Harbor,1673,10,3,12
+C2,C2-R4-014,History,Counterarguments,The Pottery Fragments,1670,10,3,12
+C2,C2-R4-015,History,Synthesis across texts,The Assembly Petition,1655,10,3,12
+C2,C2-R4-016,History,Rhetoric and framing,Tracing a Family Route,1675,10,3,12
+C2,C2-R4-017,Engineering,Transfer and critique,The Paper Water Filter,1689,10,3,12
+C2,C2-R4-018,Engineering,Observation and detail,Sunlight at the Bus Stop,1668,10,3,12
+C2,C2-R4-019,Engineering,Sequence and cause,The Wooden Span,1679,10,3,12
+C2,C2-R4-020,Engineering,Context vocabulary,Bicycle Lane Signals,1676,10,3,12
+C2,C2-R4-021,Engineering,Central idea,Flood Warning Board,1695,10,3,12
+C2,C2-R4-022,Engineering,Evidence and warrants,The Quiet Classroom,1673,10,3,12
+C2,C2-R4-023,Engineering,Perspective and purpose,Heat in a Lunch Box,1679,10,3,12
+C2,C2-R4-024,Engineering,Claims and limits,Wind Against the Tower,1661,10,3,12
+C2,C2-R4-025,Community,Data literacy,The Shared Garden Plot,1651,10,3,12
+C2,C2-R4-026,Community,Counterarguments,The Lunch Line Survey,1670,10,3,12
+C2,C2-R4-027,Community,Synthesis across texts,The Park Bench Debate,1669,10,3,12
+C2,C2-R4-028,Community,Rhetoric and framing,The Recycling Signs,1658,10,3,12
+C2,C2-R4-029,Community,Transfer and critique,A New Bus Route,1691,10,3,12
+C2,C2-R4-030,Community,Observation and detail,The Tutoring Circle,1634,10,3,12
+C2,C2-R4-031,Community,Sequence and cause,The Mural Proposal,1673,10,3,12
+C2,C2-R4-032,Community,Context vocabulary,The Emergency Kit Shelf,1677,10,3,12
+C2,C2-R4-033,Technology,Central idea,The School App Permission,1683,10,3,12
+C2,C2-R4-034,Technology,Evidence and warrants,Search Result Order,1674,10,3,12
+C2,C2-R4-035,Technology,Perspective and purpose,The Image Caption,1678,10,3,12
+C2,C2-R4-036,Technology,Claims and limits,Sensors in the Garden,1690,10,3,12
+C2,C2-R4-037,Technology,Data literacy,The Rumor Screenshot,1684,10,3,12
+C2,C2-R4-038,Technology,Counterarguments,The Lost Draft,1673,10,3,12
+C2,C2-R4-039,Technology,Synthesis across texts,The Fairness Dashboard,1660,10,3,12
+C2,C2-R4-040,Technology,Rhetoric and framing,The Editable History Page,1699,10,3,12
+C2,C2-R4-041,Literature,Transfer and critique,The Lighthouse Notebook,1685,10,3,12
+C2,C2-R4-042,Literature,Observation and detail,The Clockmaker's Door,1680,10,3,12
+C2,C2-R4-043,Literature,Sequence and cause,The Seed in Winter,1690,10,3,12
+C2,C2-R4-044,Literature,Context vocabulary,The Unsent Postcard,1671,10,3,12
+C2,C2-R4-045,Literature,Central idea,The Glass Violin,1673,10,3,12
+C2,C2-R4-046,Literature,Evidence and warrants,The Unmarked Path,1690,10,3,12
+C2,C2-R4-047,Literature,Perspective and purpose,A Window at Dawn,1672,10,3,12
+C2,C2-R4-048,Literature,Claims and limits,The Last Blue Ribbon,1676,10,3,12
+C2,C2-R4-049,Science,Data literacy,Sleep and the Class Survey,1668,10,3,12
+C2,C2-R4-050,Science,Counterarguments,Labels on the Cereal Box,1664,10,3,12
+C2,C2-R4-051,Science,Synthesis across texts,The Cloud Chamber Log,1652,10,3,12
+C2,C2-R4-052,Science,Rhetoric and framing,The Medicine Study Headline,1686,10,3,12
+C2,C2-R4-053,Science,Transfer and critique,The Lake Temperature Series,1678,10,3,12
+C2,C2-R4-054,Science,Observation and detail,The Soil Microbe Exhibit,1669,10,3,12
+C2,C2-R4-055,Science,Sequence and cause,Two Test Groups,1664,10,3,12
+C2,C2-R4-056,Science,Context vocabulary,The Bird Count Map,1684,10,3,12
+C2,C2-R4-057,Argument,Central idea,The School Budget Choice,1677,10,3,12
+C2,C2-R4-058,Argument,Evidence and warrants,The Bicycle Repair Shop,1680,10,3,12
+C2,C2-R4-059,Argument,Perspective and purpose,The Library Hours Proposal,1650,10,3,12
+C2,C2-R4-060,Argument,Claims and limits,The Reusable Cup Debate,1683,10,3,12
+C2,C2-R4-061,Argument,Data literacy,The Local Product Claim,1649,10,3,12
+C2,C2-R4-062,Argument,Counterarguments,The Garden Water Rule,1668,10,3,12
+C2,C2-R4-063,Argument,Synthesis across texts,Remote Learning Choice,1644,10,3,12
+C2,C2-R4-064,Argument,Rhetoric and framing,The Repair or Replace Decision,1679,10,3,12
