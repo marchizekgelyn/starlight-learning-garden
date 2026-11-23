@@ -49,20 +49,5 @@ document.querySelectorAll('[data-grade-band]').forEach(b=>b.addEventListener('cl
 document.querySelector('#completeDiscovery').addEventListener('click',()=>{state.points+=10;localStorage.setItem('starlight-points',state.points);explorerPoints.textContent=state.points;document.querySelector('#discoveryFeedback').textContent='✦ Discovery complete! Tell a grown-up one observation and one question you still have.';speak('Discovery complete! Share what you learned.');});
 document.querySelectorAll('[data-open-subject]').forEach(button=>button.addEventListener('click',()=>{showView('library');activeDiscovery=button.dataset.openSubject;libraryGrid.hidden=true;discoveryPanel.hidden=false;renderDiscovery();links.forEach(link=>link.classList.remove('active'));document.querySelectorAll(`[data-open-subject="${activeDiscovery}"]`).forEach(link=>link.classList.add('active'));}));
 
-const mathGrades={
-1:['Number sense to 120','Addition and subtraction stories','Basic shapes and spatial words','Length, time, and simple data'],
-2:['Place value to 1,000','Fluent addition and subtraction','Money and clock time','Equal groups and early arrays'],
-3:['Multiplication and division facts','Unit fractions and number lines','Area and perimeter','Scaled graphs and measurement'],
-4:['Multi-digit operations','Factors and multiples','Fraction equivalence','Angles, symmetry, and decimals'],
-5:['Fraction operations','Decimal place value and operations','Coordinate-plane foundations','Volume and numerical patterns'],
-6:['Ratios, rates, and percentages','Expressions and one-variable equations','Area, surface area, and volume','Statistical distributions'],
-7:['Proportional relationships','Operations with rational numbers','Expressions and equations','Probability and sampling'],
-8:['Linear equations and systems','Functions and rate of change','Transformations and congruence','Pythagorean theorem'],
-9:['Algebraic expressions and equations','Linear and exponential models','Polynomial operations','Data modeling'],
-10:['Euclidean proof and constructions','Similarity and congruence','Coordinate geometry','Right-triangle trigonometry'],
-11:['Quadratic and polynomial functions','Radicals and rational expressions','Exponential and logarithmic models','Sequences, series, and complex numbers'],
-12:['Functions and analytic trigonometry','Vectors, matrices, and conic sections','Statistics and probability models','Limits and calculus foundations']
-};
-document.querySelectorAll('[data-grade]').forEach(button=>button.addEventListener('click',()=>{const grade=button.dataset.grade,topics=mathGrades[grade];document.querySelectorAll('[data-grade]').forEach(item=>item.classList.toggle('active',item===button));document.querySelector('#gradeTitle').textContent=`Grade ${grade} mathematics`;document.querySelector('#gradeSummary').textContent=`A focused Grade ${grade} pathway connecting concepts, visual explanations, practice, and the appropriate ATLAS calculator tools.`;document.querySelector('#gradeTopics').innerHTML=topics.map(topic=>`<span>${topic}</span>`).join('');document.querySelector('#gradeDetail').scrollIntoView({behavior:'smooth',block:'nearest'});}));
 showView(location.hash.slice(1)&&views.some(v=>v.dataset.view===location.hash.slice(1))?location.hash.slice(1):'home');
 

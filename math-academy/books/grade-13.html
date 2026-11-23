@@ -1,0 +1,692 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Calculus I — ATLAS Math Academy</title><link rel="stylesheet" href="./book.css"></head><body><a href="#main" class="skip">Skip to main content</a><header class="mast"><a href="./index.html">∑ ATLAS MATHEMATICS</a><a href="../index.html">Open interactive Academy ↗</a></header><main id="main" class="book"><div id="top"></div><div class="hero"><div class="eyebrow">ATLAS REFERENCE / MATHEMATICS STUDY EDITION 13 OF 14</div><h1>Calculus I — Rates and accumulation</h1><p>Limits, derivatives and integrals. This guide contains 77 chapter-level worked lessons, review questions, answers, and linked illustrations.</p><div class="pills"><span>77 chapters</span><span>Self-paced</span><span>Print-ready</span><span>Works offline</span></div></div><nav aria-label="Other levels" class="levelnav"><a href="./grade-01.html">Grade 1</a><a href="./grade-02.html">Grade 2</a><a href="./grade-03.html">Grade 3</a><a href="./grade-04.html">Grade 4</a><a href="./grade-05.html">Grade 5</a><a href="./grade-06.html">Grade 6</a><a href="./grade-07.html">Grade 7</a><a href="./grade-08.html">Grade 8</a><a href="./grade-09.html">Algebra I</a><a href="./grade-10.html">Geometry</a><a href="./grade-11.html">Algebra II</a><a href="./grade-12.html">Precalculus</a><a href="./grade-13.html" aria-current="page">Calculus I</a><a href="./grade-14.html">Calculus II</a></nav><details class="toc" open><summary>Contents — select a chapter</summary><div><a href="#lesson-1"><span>001</span> Continuity and limits</a>
+<a href="#lesson-2"><span>002</span> Derivative from first principles</a>
+<a href="#lesson-3"><span>003</span> Power rule</a>
+<a href="#lesson-4"><span>004</span> Product rule</a>
+<a href="#lesson-5"><span>005</span> Quotient rule</a>
+<a href="#lesson-6"><span>006</span> Chain rule</a>
+<a href="#lesson-7"><span>007</span> Trigonometric derivatives</a>
+<a href="#lesson-8"><span>008</span> Critical points</a>
+<a href="#lesson-9"><span>009</span> Related rates</a>
+<a href="#lesson-10"><span>010</span> Definite integration</a>
+<a href="#lesson-11"><span>011</span> Fundamental theorem</a>
+<a href="#lesson-12"><span>012</span> Limit laws</a>
+<a href="#lesson-13"><span>013</span> One-sided limits</a>
+<a href="#lesson-14"><span>014</span> Two-sided limits</a>
+<a href="#lesson-15"><span>015</span> Removable discontinuities</a>
+<a href="#lesson-16"><span>016</span> Jump discontinuities</a>
+<a href="#lesson-17"><span>017</span> Infinite discontinuities</a>
+<a href="#lesson-18"><span>018</span> Limits at infinity</a>
+<a href="#lesson-19"><span>019</span> Squeeze theorem</a>
+<a href="#lesson-20"><span>020</span> Trigonometric limits</a>
+<a href="#lesson-21"><span>021</span> Continuity on intervals</a>
+<a href="#lesson-22"><span>022</span> Intermediate value theorem</a>
+<a href="#lesson-23"><span>023</span> Epsilon-delta intuition</a>
+<a href="#lesson-24"><span>024</span> Limit indeterminate forms</a>
+<a href="#lesson-25"><span>025</span> Definition of derivative</a>
+<a href="#lesson-26"><span>026</span> Derivative as tangent slope</a>
+<a href="#lesson-27"><span>027</span> Differentiability and continuity</a>
+<a href="#lesson-28"><span>028</span> Power rule</a>
+<a href="#lesson-29"><span>029</span> Sum and difference rules</a>
+<a href="#lesson-30"><span>030</span> Product rule</a>
+<a href="#lesson-31"><span>031</span> Quotient rule</a>
+<a href="#lesson-32"><span>032</span> Chain rule</a>
+<a href="#lesson-33"><span>033</span> Derivatives of sine and cosine</a>
+<a href="#lesson-34"><span>034</span> Derivatives of tangent</a>
+<a href="#lesson-35"><span>035</span> Derivatives of exponential functions</a>
+<a href="#lesson-36"><span>036</span> Derivatives of logarithms</a>
+<a href="#lesson-37"><span>037</span> Inverse trig derivatives</a>
+<a href="#lesson-38"><span>038</span> Implicit differentiation</a>
+<a href="#lesson-39"><span>039</span> Higher derivatives</a>
+<a href="#lesson-40"><span>040</span> Derivative of inverse functions</a>
+<a href="#lesson-41"><span>041</span> Logarithmic differentiation</a>
+<a href="#lesson-42"><span>042</span> Position velocity and acceleration</a>
+<a href="#lesson-43"><span>043</span> Marginal cost and revenue</a>
+<a href="#lesson-44"><span>044</span> Optimization of area</a>
+<a href="#lesson-45"><span>045</span> Optimization of volume</a>
+<a href="#lesson-46"><span>046</span> Related rates</a>
+<a href="#lesson-47"><span>047</span> Linear approximation</a>
+<a href="#lesson-48"><span>048</span> Differentials and error</a>
+<a href="#lesson-49"><span>049</span> Mean value theorem</a>
+<a href="#lesson-50"><span>050</span> Rolle theorem</a>
+<a href="#lesson-51"><span>051</span> Critical points</a>
+<a href="#lesson-52"><span>052</span> Local extrema</a>
+<a href="#lesson-53"><span>053</span> Absolute extrema on closed intervals</a>
+<a href="#lesson-54"><span>054</span> First derivative test</a>
+<a href="#lesson-55"><span>055</span> Second derivative test</a>
+<a href="#lesson-56"><span>056</span> Concavity and inflection points</a>
+<a href="#lesson-57"><span>057</span> Curve sketching</a>
+<a href="#lesson-58"><span>058</span> Newton method</a>
+<a href="#lesson-59"><span>059</span> L Hopital rule</a>
+<a href="#lesson-60"><span>060</span> Riemann sums</a>
+<a href="#lesson-61"><span>061</span> Left right and midpoint sums</a>
+<a href="#lesson-62"><span>062</span> Trapezoidal area estimates</a>
+<a href="#lesson-63"><span>063</span> Definite integral notation</a>
+<a href="#lesson-64"><span>064</span> Signed area and accumulation</a>
+<a href="#lesson-65"><span>065</span> Antiderivative basics</a>
+<a href="#lesson-66"><span>066</span> Indefinite integral and constants</a>
+<a href="#lesson-67"><span>067</span> Power-rule integration</a>
+<a href="#lesson-68"><span>068</span> Area between a curve and axis</a>
+<a href="#lesson-69"><span>069</span> Average value of a function</a>
+<a href="#lesson-70"><span>070</span> Net change theorem</a>
+<a href="#lesson-71"><span>071</span> Fundamental theorem of calculus I</a>
+<a href="#lesson-72"><span>072</span> Fundamental theorem of calculus II</a>
+<a href="#lesson-73"><span>073</span> Definite integrals from antiderivatives</a>
+<a href="#lesson-74"><span>074</span> Accumulation functions</a>
+<a href="#lesson-75"><span>075</span> Substitution introduction</a>
+<a href="#lesson-76"><span>076</span> Continuous interest derivatives</a>
+<a href="#lesson-77"><span>077</span> Marginal financial rates of change</a></div></details><section class="chapter" id="lesson-1" aria-labelledby="chapter-1">
+ <div class="micro">CHAPTER 001 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-1">Continuity and limits</h2>
+ <p class="concept">A continuous function has matching left/right limits equal to its value.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>lim x→2 (x²+1)=5.</p><ol><li>Polynomials are continuous</li><li>Direct substitution: 4+1=5.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→4 of (3x−2).</p><p class="hint">Hint: Substitute four.</p><details><summary>Show answer and verify</summary><p class="answer">10</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-2" aria-labelledby="chapter-2">
+ <div class="micro">CHAPTER 002 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-2">Derivative from first principles</h2>
+ <p class="concept">f′(x)=lim h→0 [f(x+h)−f(x)]/h measures instantaneous change.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>For f(x)=x², difference quotient simplifies to 2x+h, limit 2x.</p><ol><li>Expand (x+h)²</li><li>Cancel x²</li><li>Divide by h</li><li>Let h→0.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For f(x)=x², find f′(5).</p><p class="hint">Hint: Derivative is 2x.</p><details><summary>Show answer and verify</summary><p class="answer">10</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-3" aria-labelledby="chapter-3">
+ <div class="micro">CHAPTER 003 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-3">Power rule</h2>
+ <p class="concept">d/dx[x^n]=n x^(n−1) for real n where defined.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>d(x⁴)/dx=4x³.</p><ol><li>Multiply by exponent 4</li><li>Reduce exponent one.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x^5 at x=2.</p><p class="hint">Hint: 5×2⁴.</p><details><summary>Show answer and verify</summary><p class="answer">80</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-4" aria-labelledby="chapter-4">
+ <div class="micro">CHAPTER 004 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-4">Product rule</h2>
+ <p class="concept">d(uv)/dx=u′v+uv′; both factors change.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>d[x² sin x]/dx=2x sin x+x² cos x.</p><ol><li>Differentiate first × second</li><li>Add first × derivative of second.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For f=x²·x³, evaluate f′(2).</p><p class="hint">Hint: Simplify to x^5.</p><details><summary>Show answer and verify</summary><p class="answer">80</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-5" aria-labelledby="chapter-5">
+ <div class="micro">CHAPTER 005 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-5">Quotient rule</h2>
+ <p class="concept">d(u/v)/dx=(u′v−uv′)/v² for v≠0.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>d[(x²+1)/x]/dx=1−1/x².</p><ol><li>Rewrite x+1/x</li><li>Differentiate termwise.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Derivative of 1/x at x=2?</p><p class="hint">Hint: −1/x².</p><details><summary>Show answer and verify</summary><p class="answer">-0.25</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-6" aria-labelledby="chapter-6">
+ <div class="micro">CHAPTER 006 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-6">Chain rule</h2>
+ <p class="concept">For composition f(g(x)), derivative = f′(g(x))g′(x).</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>d[(3x+1)²]/dx=6(3x+1).</p><ol><li>Outer derivative 2(3x+1)</li><li>Inner derivative 3</li><li>Multiply.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Derivative of (2x+1)^3 at x=1?</p><p class="hint">Hint: 3(2x+1)²·2.</p><details><summary>Show answer and verify</summary><p class="answer">54</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-7" aria-labelledby="chapter-7">
+ <div class="micro">CHAPTER 007 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-7">Trigonometric derivatives</h2>
+ <p class="concept">In radians, d(sin x)/dx=cos x and d(cos x)/dx=−sin x.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>d[sin x]/dx at 0 = cos0 = 1.</p><ol><li>Differentiate sine</li><li>Evaluate cosine zero.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find d[cos x]/dx at x=pi/2 in RAD mode.</p><p class="hint">Hint: Derivative −sin x.</p><details><summary>Show answer and verify</summary><p class="answer">-1</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-8" aria-labelledby="chapter-8">
+ <div class="micro">CHAPTER 008 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-8">Critical points</h2>
+ <p class="concept">Local extrema may occur where f′=0 or derivative is undefined.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>For f(x)=x²−6x+4, f′=2x−6=0 at x=3.</p><ol><li>Differentiate</li><li>Solve first derivative zero.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find x of minimum for f=x²−8x+2.</p><p class="hint">Hint: Derivative 2x−8=0.</p><details><summary>Show answer and verify</summary><p class="answer">4</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-9" aria-labelledby="chapter-9">
+ <div class="micro">CHAPTER 009 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-9">Related rates</h2>
+ <p class="concept">Differentiate an equation in time; use chain rule and known rates.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>If A=πr², dA/dt=2πr dr/dt.</p><ol><li>Differentiate both sides</li><li>Substitute known r and dr/dt.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>If s=t², what is ds/dt at t=4?</p><p class="hint">Hint: Derivative 2t.</p><details><summary>Show answer and verify</summary><p class="answer">8</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-10" aria-labelledby="chapter-10">
+ <div class="micro">CHAPTER 010 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-10">Definite integration</h2>
+ <p class="concept">∫_a^b f(x)dx is signed accumulated area; for powers use antiderivatives.</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>∫₀² x dx = [x²/2]₀²=2.</p><ol><li>Find antiderivative x²/2</li><li>Evaluate endpoints</li><li>Subtract.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate x^2 from 0 to 3.</p><p class="hint">Hint: x³/3 from zero to three.</p><details><summary>Show answer and verify</summary><p class="answer">9</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-11" aria-labelledby="chapter-11">
+ <div class="micro">CHAPTER 011 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-11">Fundamental theorem</h2>
+ <p class="concept">If F′=f, ∫_a^b f(x)dx=F(b)−F(a).</p>
+ 
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>∫₁³ 2x dx=[x²]₁³=9−1=8.</p><ol><li>Find antiderivative x²</li><li>Subtract endpoints.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 2x+1 from 0 to 2.</p><p class="hint">Hint: Antiderivative x²+x.</p><details><summary>Show answer and verify</summary><p class="answer">6</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-12" aria-labelledby="chapter-12">
+ <div class="micro">CHAPTER 012 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-12">Limit laws</h2>
+ <p class="concept">Limit laws: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Limit laws" src="../assets/visuals/g13-t001.png"><figcaption>Figure g13-t001 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→6 of (x+4).</p><ol><li>The function x+4 is continuous.</li><li>Substitute x=6.</li><li>Limit = 10.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→3 of (3x+6).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">15</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-13" aria-labelledby="chapter-13">
+ <div class="micro">CHAPTER 013 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-13">One-sided limits</h2>
+ <p class="concept">One-sided limits: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of One-sided limits" src="../assets/visuals/g13-t002.png"><figcaption>Figure g13-t002 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→7 of (x+11).</p><ol><li>The function x+11 is continuous.</li><li>Substitute x=7.</li><li>Limit = 18.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→4 of (3x+7).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">19</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-14" aria-labelledby="chapter-14">
+ <div class="micro">CHAPTER 014 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-14">Two-sided limits</h2>
+ <p class="concept">Two-sided limits: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Two-sided limits" src="../assets/visuals/g13-t003.png"><figcaption>Figure g13-t003 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→12 of (x+4).</p><ol><li>The function x+4 is continuous.</li><li>Substitute x=12.</li><li>Limit = 16.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→2 of (3x+12).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">18</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-15" aria-labelledby="chapter-15">
+ <div class="micro">CHAPTER 015 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-15">Removable discontinuities</h2>
+ <p class="concept">Removable discontinuities: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Removable discontinuities" src="../assets/visuals/g13-t004.png"><figcaption>Figure g13-t004 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→10 of (x+3).</p><ol><li>The function x+3 is continuous.</li><li>Substitute x=10.</li><li>Limit = 13.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→4 of (3x+10).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">22</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-16" aria-labelledby="chapter-16">
+ <div class="micro">CHAPTER 016 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-16">Jump discontinuities</h2>
+ <p class="concept">Jump discontinuities: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Jump discontinuities" src="../assets/visuals/g13-t005.png"><figcaption>Figure g13-t005 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→6 of (x+11).</p><ol><li>The function x+11 is continuous.</li><li>Substitute x=6.</li><li>Limit = 17.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→4 of (3x+6).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">18</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-17" aria-labelledby="chapter-17">
+ <div class="micro">CHAPTER 017 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-17">Infinite discontinuities</h2>
+ <p class="concept">Infinite discontinuities: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Infinite discontinuities" src="../assets/visuals/g13-t006.png"><figcaption>Figure g13-t006 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→8 of (x+2).</p><ol><li>The function x+2 is continuous.</li><li>Substitute x=8.</li><li>Limit = 10.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→7 of (3x+8).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">29</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-18" aria-labelledby="chapter-18">
+ <div class="micro">CHAPTER 018 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-18">Limits at infinity</h2>
+ <p class="concept">Limits at infinity: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Limits at infinity" src="../assets/visuals/g13-t007.png"><figcaption>Figure g13-t007 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→6 of (x+7).</p><ol><li>The function x+7 is continuous.</li><li>Substitute x=6.</li><li>Limit = 13.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→6 of (3x+6).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">24</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-19" aria-labelledby="chapter-19">
+ <div class="micro">CHAPTER 019 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-19">Squeeze theorem</h2>
+ <p class="concept">Squeeze theorem: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Squeeze theorem" src="../assets/visuals/g13-t008.png"><figcaption>Figure g13-t008 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→2 of (x+10).</p><ol><li>The function x+10 is continuous.</li><li>Substitute x=2.</li><li>Limit = 12.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→4 of (3x+2).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">14</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-20" aria-labelledby="chapter-20">
+ <div class="micro">CHAPTER 020 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-20">Trigonometric limits</h2>
+ <p class="concept">Trigonometric limits: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Trigonometric limits" src="../assets/visuals/g13-t009.png"><figcaption>Figure g13-t009 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→2 of (x+2).</p><ol><li>The function x+2 is continuous.</li><li>Substitute x=2.</li><li>Limit = 4.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→2 of (3x+2).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">8</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-21" aria-labelledby="chapter-21">
+ <div class="micro">CHAPTER 021 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-21">Continuity on intervals</h2>
+ <p class="concept">Continuity on intervals: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Continuity on intervals" src="../assets/visuals/g13-t010.png"><figcaption>Figure g13-t010 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→4 of (x+6).</p><ol><li>The function x+6 is continuous.</li><li>Substitute x=4.</li><li>Limit = 10.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→7 of (3x+4).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">25</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-22" aria-labelledby="chapter-22">
+ <div class="micro">CHAPTER 022 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-22">Intermediate value theorem</h2>
+ <p class="concept">Intermediate value theorem: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Intermediate value theorem" src="../assets/visuals/g13-t011.png"><figcaption>Figure g13-t011 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→6 of (x+4).</p><ol><li>The function x+4 is continuous.</li><li>Substitute x=6.</li><li>Limit = 10.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→2 of (3x+6).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">12</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-23" aria-labelledby="chapter-23">
+ <div class="micro">CHAPTER 023 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-23">Epsilon-delta intuition</h2>
+ <p class="concept">Epsilon-delta intuition: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Epsilon-delta intuition" src="../assets/visuals/g13-t012.png"><figcaption>Figure g13-t012 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→7 of (x+3).</p><ol><li>The function x+3 is continuous.</li><li>Substitute x=7.</li><li>Limit = 10.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→2 of (3x+7).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">13</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-24" aria-labelledby="chapter-24">
+ <div class="micro">CHAPTER 024 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-24">Limit indeterminate forms</h2>
+ <p class="concept">Limit indeterminate forms: Analyze what a function approaches as x tends to a value, independent of the actual value at that point. Numerical values suggest a limit but do not constitute proof.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Limit indeterminate forms" src="../assets/visuals/g13-t013.png"><figcaption>Figure g13-t013 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Evaluate lim x→3 of (x+9).</p><ol><li>The function x+9 is continuous.</li><li>Substitute x=3.</li><li>Limit = 12.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find lim x→4 of (3x+3).</p><p class="hint">Hint: Polynomials are continuous at finite inputs.</p><details><summary>Show answer and verify</summary><p class="answer">15</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-25" aria-labelledby="chapter-25">
+ <div class="micro">CHAPTER 025 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-25">Definition of derivative</h2>
+ <p class="concept">Definition of derivative: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Definition of derivative" src="../assets/visuals/g13-t014.png"><figcaption>Figure g13-t014 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=7.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 7.</li><li>Slope = 3×7² = 147.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=3.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">6</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-26" aria-labelledby="chapter-26">
+ <div class="micro">CHAPTER 026 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-26">Derivative as tangent slope</h2>
+ <p class="concept">Derivative as tangent slope: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Derivative as tangent slope" src="../assets/visuals/g13-t015.png"><figcaption>Figure g13-t015 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=7.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 7.</li><li>Slope = 3×7² = 147.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=3.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">6</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-27" aria-labelledby="chapter-27">
+ <div class="micro">CHAPTER 027 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-27">Differentiability and continuity</h2>
+ <p class="concept">Differentiability and continuity: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Differentiability and continuity" src="../assets/visuals/g13-t016.png"><figcaption>Figure g13-t016 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=5.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 5.</li><li>Slope = 3×5² = 75.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=6.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">12</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-28" aria-labelledby="chapter-28">
+ <div class="micro">CHAPTER 028 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-28">Power rule</h2>
+ <p class="concept">Power rule: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Power rule" src="../assets/visuals/g13-t017.png"><figcaption>Figure g13-t017 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=7.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 7.</li><li>Slope = 3×7² = 147.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=8.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">16</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-29" aria-labelledby="chapter-29">
+ <div class="micro">CHAPTER 029 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-29">Sum and difference rules</h2>
+ <p class="concept">Sum and difference rules: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Sum and difference rules" src="../assets/visuals/g13-t018.png"><figcaption>Figure g13-t018 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=10.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 10.</li><li>Slope = 3×10² = 300.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=4.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">8</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-30" aria-labelledby="chapter-30">
+ <div class="micro">CHAPTER 030 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-30">Product rule</h2>
+ <p class="concept">Product rule: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Product rule" src="../assets/visuals/g13-t019.png"><figcaption>Figure g13-t019 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=11.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 11.</li><li>Slope = 3×11² = 363.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=10.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">20</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-31" aria-labelledby="chapter-31">
+ <div class="micro">CHAPTER 031 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-31">Quotient rule</h2>
+ <p class="concept">Quotient rule: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Quotient rule" src="../assets/visuals/g13-t020.png"><figcaption>Figure g13-t020 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=5.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 5.</li><li>Slope = 3×5² = 75.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=6.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">12</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-32" aria-labelledby="chapter-32">
+ <div class="micro">CHAPTER 032 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-32">Chain rule</h2>
+ <p class="concept">Chain rule: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Chain rule" src="../assets/visuals/g13-t021.png"><figcaption>Figure g13-t021 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=4.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 4.</li><li>Slope = 3×4² = 48.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=10.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">20</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-33" aria-labelledby="chapter-33">
+ <div class="micro">CHAPTER 033 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-33">Derivatives of sine and cosine</h2>
+ <p class="concept">Derivatives of sine and cosine: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Derivatives of sine and cosine" src="../assets/visuals/g13-t022.png"><figcaption>Figure g13-t022 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=12.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 12.</li><li>Slope = 3×12² = 432.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=10.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">20</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-34" aria-labelledby="chapter-34">
+ <div class="micro">CHAPTER 034 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-34">Derivatives of tangent</h2>
+ <p class="concept">Derivatives of tangent: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Derivatives of tangent" src="../assets/visuals/g13-t023.png"><figcaption>Figure g13-t023 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=10.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 10.</li><li>Slope = 3×10² = 300.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=4.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">8</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-35" aria-labelledby="chapter-35">
+ <div class="micro">CHAPTER 035 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-35">Derivatives of exponential functions</h2>
+ <p class="concept">Derivatives of exponential functions: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Derivatives of exponential functions" src="../assets/visuals/g13-t024.png"><figcaption>Figure g13-t024 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=6.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 6.</li><li>Slope = 3×6² = 108.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=11.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">22</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-36" aria-labelledby="chapter-36">
+ <div class="micro">CHAPTER 036 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-36">Derivatives of logarithms</h2>
+ <p class="concept">Derivatives of logarithms: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Derivatives of logarithms" src="../assets/visuals/g13-t025.png"><figcaption>Figure g13-t025 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=9.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 9.</li><li>Slope = 3×9² = 243.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=8.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">16</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-37" aria-labelledby="chapter-37">
+ <div class="micro">CHAPTER 037 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-37">Inverse trig derivatives</h2>
+ <p class="concept">Inverse trig derivatives: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Inverse trig derivatives" src="../assets/visuals/g13-t026.png"><figcaption>Figure g13-t026 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=4.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 4.</li><li>Slope = 3×4² = 48.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=5.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">10</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-38" aria-labelledby="chapter-38">
+ <div class="micro">CHAPTER 038 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-38">Implicit differentiation</h2>
+ <p class="concept">Implicit differentiation: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Implicit differentiation" src="../assets/visuals/g13-t027.png"><figcaption>Figure g13-t027 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=4.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 4.</li><li>Slope = 3×4² = 48.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=9.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">18</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-39" aria-labelledby="chapter-39">
+ <div class="micro">CHAPTER 039 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-39">Higher derivatives</h2>
+ <p class="concept">Higher derivatives: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Higher derivatives" src="../assets/visuals/g13-t028.png"><figcaption>Figure g13-t028 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=9.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 9.</li><li>Slope = 3×9² = 243.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=3.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">6</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-40" aria-labelledby="chapter-40">
+ <div class="micro">CHAPTER 040 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-40">Derivative of inverse functions</h2>
+ <p class="concept">Derivative of inverse functions: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Derivative of inverse functions" src="../assets/visuals/g13-t029.png"><figcaption>Figure g13-t029 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=12.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 12.</li><li>Slope = 3×12² = 432.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=9.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">18</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-41" aria-labelledby="chapter-41">
+ <div class="micro">CHAPTER 041 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-41">Logarithmic differentiation</h2>
+ <p class="concept">Logarithmic differentiation: Differentiate to find instantaneous rate of change and tangent-line slope. Check the applicable product, quotient, power and chain rules.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Logarithmic differentiation" src="../assets/visuals/g13-t030.png"><figcaption>Figure g13-t030 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Differentiate x³ and evaluate at x=8.</p><ol><li>Power rule gives d(x³)/dx=3x².</li><li>Substitute 8.</li><li>Slope = 3×8² = 192.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Find derivative of x² at x=3.</p><p class="hint">Hint: Differentiate first: 2x.</p><details><summary>Show answer and verify</summary><p class="answer">6</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-42" aria-labelledby="chapter-42">
+ <div class="micro">CHAPTER 042 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-42">Position velocity and acceleration</h2>
+ <p class="concept">Position velocity and acceleration: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Position velocity and acceleration" src="../assets/visuals/g13-t031.png"><figcaption>Figure g13-t031 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=6t². Find speed at t=2.</p><ol><li>Differentiate s to get v(t)=12t.</li><li>Substitute t=2.</li><li>v=24 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=5t², find velocity at t=2.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">20</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-43" aria-labelledby="chapter-43">
+ <div class="micro">CHAPTER 043 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-43">Marginal cost and revenue</h2>
+ <p class="concept">Marginal cost and revenue: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Marginal cost and revenue" src="../assets/visuals/g13-t032.png"><figcaption>Figure g13-t032 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=3t². Find speed at t=7.</p><ol><li>Differentiate s to get v(t)=6t.</li><li>Substitute t=7.</li><li>v=42 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=5t², find velocity at t=7.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">70</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-44" aria-labelledby="chapter-44">
+ <div class="micro">CHAPTER 044 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-44">Optimization of area</h2>
+ <p class="concept">Optimization of area: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Optimization of area" src="../assets/visuals/g13-t033.png"><figcaption>Figure g13-t033 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=12t². Find speed at t=4.</p><ol><li>Differentiate s to get v(t)=24t.</li><li>Substitute t=4.</li><li>v=96 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=7t², find velocity at t=4.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">56</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-45" aria-labelledby="chapter-45">
+ <div class="micro">CHAPTER 045 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-45">Optimization of volume</h2>
+ <p class="concept">Optimization of volume: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Optimization of volume" src="../assets/visuals/g13-t034.png"><figcaption>Figure g13-t034 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=12t². Find speed at t=7.</p><ol><li>Differentiate s to get v(t)=24t.</li><li>Substitute t=7.</li><li>v=168 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=8t², find velocity at t=7.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">112</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-46" aria-labelledby="chapter-46">
+ <div class="micro">CHAPTER 046 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-46">Related rates</h2>
+ <p class="concept">Related rates: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Related rates" src="../assets/visuals/g13-t035.png"><figcaption>Figure g13-t035 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=6t². Find speed at t=6.</p><ol><li>Differentiate s to get v(t)=12t.</li><li>Substitute t=6.</li><li>v=72 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=2t², find velocity at t=6.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">24</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-47" aria-labelledby="chapter-47">
+ <div class="micro">CHAPTER 047 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-47">Linear approximation</h2>
+ <p class="concept">Linear approximation: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Linear approximation" src="../assets/visuals/g13-t036.png"><figcaption>Figure g13-t036 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=4t². Find speed at t=5.</p><ol><li>Differentiate s to get v(t)=8t.</li><li>Substitute t=5.</li><li>v=40 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=5t², find velocity at t=5.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">50</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-48" aria-labelledby="chapter-48">
+ <div class="micro">CHAPTER 048 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-48">Differentials and error</h2>
+ <p class="concept">Differentials and error: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Differentials and error" src="../assets/visuals/g13-t037.png"><figcaption>Figure g13-t037 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=4t². Find speed at t=2.</p><ol><li>Differentiate s to get v(t)=8t.</li><li>Substitute t=2.</li><li>v=16 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=9t², find velocity at t=2.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">36</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-49" aria-labelledby="chapter-49">
+ <div class="micro">CHAPTER 049 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-49">Mean value theorem</h2>
+ <p class="concept">Mean value theorem: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Mean value theorem" src="../assets/visuals/g13-t038.png"><figcaption>Figure g13-t038 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=12t². Find speed at t=5.</p><ol><li>Differentiate s to get v(t)=24t.</li><li>Substitute t=5.</li><li>v=120 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=6t², find velocity at t=5.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">60</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-50" aria-labelledby="chapter-50">
+ <div class="micro">CHAPTER 050 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-50">Rolle theorem</h2>
+ <p class="concept">Rolle theorem: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Rolle theorem" src="../assets/visuals/g13-t039.png"><figcaption>Figure g13-t039 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=6t². Find speed at t=4.</p><ol><li>Differentiate s to get v(t)=12t.</li><li>Substitute t=4.</li><li>v=48 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=11t², find velocity at t=4.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">88</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-51" aria-labelledby="chapter-51">
+ <div class="micro">CHAPTER 051 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-51">Critical points</h2>
+ <p class="concept">Critical points: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Critical points" src="../assets/visuals/g13-t040.png"><figcaption>Figure g13-t040 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=6t². Find speed at t=4.</p><ol><li>Differentiate s to get v(t)=12t.</li><li>Substitute t=4.</li><li>v=48 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=6t², find velocity at t=4.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">48</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-52" aria-labelledby="chapter-52">
+ <div class="micro">CHAPTER 052 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-52">Local extrema</h2>
+ <p class="concept">Local extrema: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Local extrema" src="../assets/visuals/g13-t041.png"><figcaption>Figure g13-t041 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=3t². Find speed at t=4.</p><ol><li>Differentiate s to get v(t)=6t.</li><li>Substitute t=4.</li><li>v=24 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=9t², find velocity at t=4.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">72</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-53" aria-labelledby="chapter-53">
+ <div class="micro">CHAPTER 053 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-53">Absolute extrema on closed intervals</h2>
+ <p class="concept">Absolute extrema on closed intervals: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Absolute extrema on closed intervals" src="../assets/visuals/g13-t042.png"><figcaption>Figure g13-t042 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=4t². Find speed at t=7.</p><ol><li>Differentiate s to get v(t)=8t.</li><li>Substitute t=7.</li><li>v=56 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=6t², find velocity at t=7.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">84</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-54" aria-labelledby="chapter-54">
+ <div class="micro">CHAPTER 054 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-54">First derivative test</h2>
+ <p class="concept">First derivative test: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of First derivative test" src="../assets/visuals/g13-t043.png"><figcaption>Figure g13-t043 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=6t². Find speed at t=2.</p><ol><li>Differentiate s to get v(t)=12t.</li><li>Substitute t=2.</li><li>v=24 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=9t², find velocity at t=2.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">36</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-55" aria-labelledby="chapter-55">
+ <div class="micro">CHAPTER 055 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-55">Second derivative test</h2>
+ <p class="concept">Second derivative test: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Second derivative test" src="../assets/visuals/g13-t044.png"><figcaption>Figure g13-t044 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=3t². Find speed at t=5.</p><ol><li>Differentiate s to get v(t)=6t.</li><li>Substitute t=5.</li><li>v=30 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=5t², find velocity at t=5.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">50</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-56" aria-labelledby="chapter-56">
+ <div class="micro">CHAPTER 056 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-56">Concavity and inflection points</h2>
+ <p class="concept">Concavity and inflection points: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Concavity and inflection points" src="../assets/visuals/g13-t045.png"><figcaption>Figure g13-t045 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=2t². Find speed at t=5.</p><ol><li>Differentiate s to get v(t)=4t.</li><li>Substitute t=5.</li><li>v=20 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=7t², find velocity at t=5.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">70</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-57" aria-labelledby="chapter-57">
+ <div class="micro">CHAPTER 057 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-57">Curve sketching</h2>
+ <p class="concept">Curve sketching: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Curve sketching" src="../assets/visuals/g13-t046.png"><figcaption>Figure g13-t046 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=9t². Find speed at t=3.</p><ol><li>Differentiate s to get v(t)=18t.</li><li>Substitute t=3.</li><li>v=54 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=3t², find velocity at t=3.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">18</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-58" aria-labelledby="chapter-58">
+ <div class="micro">CHAPTER 058 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-58">Newton method</h2>
+ <p class="concept">Newton method: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Newton method" src="../assets/visuals/g13-t047.png"><figcaption>Figure g13-t047 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=9t². Find speed at t=6.</p><ol><li>Differentiate s to get v(t)=18t.</li><li>Substitute t=6.</li><li>v=108 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=11t², find velocity at t=6.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">132</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-59" aria-labelledby="chapter-59">
+ <div class="micro">CHAPTER 059 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-59">L Hopital rule</h2>
+ <p class="concept">L Hopital rule: Formulate the model, take its derivative, and interpret its units and critical points. A critical point may be a maximum, minimum, or neither.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of L Hopital rule" src="../assets/visuals/g13-t048.png"><figcaption>Figure g13-t048 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Position is s(t)=5t². Find speed at t=7.</p><ol><li>Differentiate s to get v(t)=10t.</li><li>Substitute t=7.</li><li>v=70 distance units/time.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>For s(t)=5t², find velocity at t=7.</p><p class="hint">Hint: Velocity is the first derivative of position.</p><details><summary>Show answer and verify</summary><p class="answer">70</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-60" aria-labelledby="chapter-60">
+ <div class="micro">CHAPTER 060 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-60">Riemann sums</h2>
+ <p class="concept">Riemann sums: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Riemann sums" src="../assets/visuals/g13-t049.png"><figcaption>Figure g13-t049 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 4x on [0,3].</p><ol><li>Antiderivative is (4/2)x².</li><li>At 3, evaluate 4×3²/2.</li><li>The value is 18.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 3x from 0 to 3.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">13.5</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-61" aria-labelledby="chapter-61">
+ <div class="micro">CHAPTER 061 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-61">Left right and midpoint sums</h2>
+ <p class="concept">Left right and midpoint sums: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Left right and midpoint sums" src="../assets/visuals/g13-t050.png"><figcaption>Figure g13-t050 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 9x on [0,5].</p><ol><li>Antiderivative is (9/2)x².</li><li>At 5, evaluate 9×5²/2.</li><li>The value is 112.500000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 6x from 0 to 5.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">75.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-62" aria-labelledby="chapter-62">
+ <div class="micro">CHAPTER 062 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-62">Trapezoidal area estimates</h2>
+ <p class="concept">Trapezoidal area estimates: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Trapezoidal area estimates" src="../assets/visuals/g13-t051.png"><figcaption>Figure g13-t051 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 7x on [0,2].</p><ol><li>Antiderivative is (7/2)x².</li><li>At 2, evaluate 7×2²/2.</li><li>The value is 14.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 9x from 0 to 2.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">18.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-63" aria-labelledby="chapter-63">
+ <div class="micro">CHAPTER 063 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-63">Definite integral notation</h2>
+ <p class="concept">Definite integral notation: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Definite integral notation" src="../assets/visuals/g13-t052.png"><figcaption>Figure g13-t052 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 4x on [0,6].</p><ol><li>Antiderivative is (4/2)x².</li><li>At 6, evaluate 4×6²/2.</li><li>The value is 72.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 8x from 0 to 6.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">144.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-64" aria-labelledby="chapter-64">
+ <div class="micro">CHAPTER 064 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-64">Signed area and accumulation</h2>
+ <p class="concept">Signed area and accumulation: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Signed area and accumulation" src="../assets/visuals/g13-t053.png"><figcaption>Figure g13-t053 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 4x on [0,2].</p><ol><li>Antiderivative is (4/2)x².</li><li>At 2, evaluate 4×2²/2.</li><li>The value is 8.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 6x from 0 to 2.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">12.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-65" aria-labelledby="chapter-65">
+ <div class="micro">CHAPTER 065 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-65">Antiderivative basics</h2>
+ <p class="concept">Antiderivative basics: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Antiderivative basics" src="../assets/visuals/g13-t054.png"><figcaption>Figure g13-t054 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 5x on [0,1].</p><ol><li>Antiderivative is (5/2)x².</li><li>At 1, evaluate 5×1²/2.</li><li>The value is 2.500000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 6x from 0 to 1.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">3.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-66" aria-labelledby="chapter-66">
+ <div class="micro">CHAPTER 066 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-66">Indefinite integral and constants</h2>
+ <p class="concept">Indefinite integral and constants: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Indefinite integral and constants" src="../assets/visuals/g13-t055.png"><figcaption>Figure g13-t055 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 10x on [0,1].</p><ol><li>Antiderivative is (10/2)x².</li><li>At 1, evaluate 10×1²/2.</li><li>The value is 5.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 4x from 0 to 1.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">2.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-67" aria-labelledby="chapter-67">
+ <div class="micro">CHAPTER 067 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-67">Power-rule integration</h2>
+ <p class="concept">Power-rule integration: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Power-rule integration" src="../assets/visuals/g13-t056.png"><figcaption>Figure g13-t056 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 2x on [0,5].</p><ol><li>Antiderivative is (2/2)x².</li><li>At 5, evaluate 2×5²/2.</li><li>The value is 25.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 7x from 0 to 5.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">87.5</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-68" aria-labelledby="chapter-68">
+ <div class="micro">CHAPTER 068 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-68">Area between a curve and axis</h2>
+ <p class="concept">Area between a curve and axis: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Area between a curve and axis" src="../assets/visuals/g13-t057.png"><figcaption>Figure g13-t057 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 4x on [0,5].</p><ol><li>Antiderivative is (4/2)x².</li><li>At 5, evaluate 4×5²/2.</li><li>The value is 50.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 4x from 0 to 5.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">50.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-69" aria-labelledby="chapter-69">
+ <div class="micro">CHAPTER 069 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-69">Average value of a function</h2>
+ <p class="concept">Average value of a function: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Average value of a function" src="../assets/visuals/g13-t058.png"><figcaption>Figure g13-t058 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 9x on [0,5].</p><ol><li>Antiderivative is (9/2)x².</li><li>At 5, evaluate 9×5²/2.</li><li>The value is 112.500000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 4x from 0 to 5.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">50.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-70" aria-labelledby="chapter-70">
+ <div class="micro">CHAPTER 070 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-70">Net change theorem</h2>
+ <p class="concept">Net change theorem: The definite integral represents signed accumulated change and can be approximated by Riemann sums. Differentiate an antiderivative to verify an indefinite-integral result.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Net change theorem" src="../assets/visuals/g13-t059.png"><figcaption>Figure g13-t059 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Integrate 7x on [0,6].</p><ol><li>Antiderivative is (7/2)x².</li><li>At 6, evaluate 7×6²/2.</li><li>The value is 126.000000.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Integrate 4x from 0 to 6.</p><p class="hint">Hint: Use ∫kx dx = kx²/2 and evaluate bounds.</p><details><summary>Show answer and verify</summary><p class="answer">72.0</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-71" aria-labelledby="chapter-71">
+ <div class="micro">CHAPTER 071 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-71">Fundamental theorem of calculus I</h2>
+ <p class="concept">Fundamental theorem of calculus I: Use a valid antiderivative and subtract the lower-endpoint value from the upper-endpoint value. The fundamental theorem connects accumulation and differentiation.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Fundamental theorem of calculus I" src="../assets/visuals/g13-t060.png"><figcaption>Figure g13-t060 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Calculate ∫₀^3 3 dx.</p><ol><li>An antiderivative of 3 is 3x.</li><li>F(3)−F(0)=9.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Calculate ∫₀^4 11 dx.</p><p class="hint">Hint: Constant-height rectangle has area height × width.</p><details><summary>Show answer and verify</summary><p class="answer">44</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-72" aria-labelledby="chapter-72">
+ <div class="micro">CHAPTER 072 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-72">Fundamental theorem of calculus II</h2>
+ <p class="concept">Fundamental theorem of calculus II: Use a valid antiderivative and subtract the lower-endpoint value from the upper-endpoint value. The fundamental theorem connects accumulation and differentiation.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Fundamental theorem of calculus II" src="../assets/visuals/g13-t061.png"><figcaption>Figure g13-t061 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Calculate ∫₀^6 12 dx.</p><ol><li>An antiderivative of 12 is 12x.</li><li>F(6)−F(0)=72.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Calculate ∫₀^7 10 dx.</p><p class="hint">Hint: Constant-height rectangle has area height × width.</p><details><summary>Show answer and verify</summary><p class="answer">70</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-73" aria-labelledby="chapter-73">
+ <div class="micro">CHAPTER 073 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-73">Definite integrals from antiderivatives</h2>
+ <p class="concept">Definite integrals from antiderivatives: Use a valid antiderivative and subtract the lower-endpoint value from the upper-endpoint value. The fundamental theorem connects accumulation and differentiation.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Definite integrals from antiderivatives" src="../assets/visuals/g13-t062.png"><figcaption>Figure g13-t062 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Calculate ∫₀^6 12 dx.</p><ol><li>An antiderivative of 12 is 12x.</li><li>F(6)−F(0)=72.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Calculate ∫₀^7 2 dx.</p><p class="hint">Hint: Constant-height rectangle has area height × width.</p><details><summary>Show answer and verify</summary><p class="answer">14</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-74" aria-labelledby="chapter-74">
+ <div class="micro">CHAPTER 074 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-74">Accumulation functions</h2>
+ <p class="concept">Accumulation functions: Use a valid antiderivative and subtract the lower-endpoint value from the upper-endpoint value. The fundamental theorem connects accumulation and differentiation.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Accumulation functions" src="../assets/visuals/g13-t063.png"><figcaption>Figure g13-t063 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Calculate ∫₀^5 12 dx.</p><ol><li>An antiderivative of 12 is 12x.</li><li>F(5)−F(0)=60.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Calculate ∫₀^6 8 dx.</p><p class="hint">Hint: Constant-height rectangle has area height × width.</p><details><summary>Show answer and verify</summary><p class="answer">48</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-75" aria-labelledby="chapter-75">
+ <div class="micro">CHAPTER 075 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-75">Substitution introduction</h2>
+ <p class="concept">Substitution introduction: Use a valid antiderivative and subtract the lower-endpoint value from the upper-endpoint value. The fundamental theorem connects accumulation and differentiation.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Substitution introduction" src="../assets/visuals/g13-t064.png"><figcaption>Figure g13-t064 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Calculate ∫₀^6 10 dx.</p><ol><li>An antiderivative of 10 is 10x.</li><li>F(6)−F(0)=60.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Calculate ∫₀^7 3 dx.</p><p class="hint">Hint: Constant-height rectangle has area height × width.</p><details><summary>Show answer and verify</summary><p class="answer">21</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-76" aria-labelledby="chapter-76">
+ <div class="micro">CHAPTER 076 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-76">Continuous interest derivatives</h2>
+ <p class="concept">Continuous interest derivatives: Convert a percentage to a decimal and write down the compounding period before computing. A loan APR and an investment APY are not automatically interchangeable.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Continuous interest derivatives" src="../assets/visuals/g13-t065.png"><figcaption>Figure g13-t065 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Calculate one year of simple interest on $400 at 6% APR.</p><ol><li>Convert rate to 0.06.</li><li>Interest = 400×0.06×1.</li><li>Earn $24.00.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Interest on $700 at 6% for one year?</p><p class="hint">Hint: Simple interest is principal × annual rate × time.</p><details><summary>Show answer and verify</summary><p class="answer">42</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section>
+<section class="chapter" id="lesson-77" aria-labelledby="chapter-77">
+ <div class="micro">CHAPTER 077 / 77 • Calculus I • 14 min</div>
+ <h2 id="chapter-77">Marginal financial rates of change</h2>
+ <p class="concept">Marginal financial rates of change: Convert a percentage to a decimal and write down the compounding period before computing. A loan APR and an investment APY are not automatically interchangeable.</p>
+ <figure><img loading="lazy" alt="Worked visual representation of Marginal financial rates of change" src="../assets/visuals/g13-t066.png"><figcaption>Figure g13-t066 · Concept visualization, schematic when applicable</figcaption></figure>
+ <div class="example"><strong>WORKED EXAMPLE</strong><p>Calculate one year of simple interest on $500 at 5% APR.</p><ol><li>Convert rate to 0.05.</li><li>Interest = 500×0.05×1.</li><li>Earn $25.00.</li></ol></div>
+ <div class="challenge"><strong>CHECK YOUR UNDERSTANDING</strong><p>Interest on $700 at 5% for one year?</p><p class="hint">Hint: Simple interest is principal × annual rate × time.</p><details><summary>Show answer and verify</summary><p class="answer">35</p><p>Check the units, inputs and intermediate steps. Different solution methods may be valid.</p></details></div><p class="navback"><a href="#top">↑ Return to chapter list</a></p>
+ </section></main><footer>ATLAS Math Academy v2.0 · Marc Lavoie · 2026 · Learn / Verify / Apply</footer></body></html>
